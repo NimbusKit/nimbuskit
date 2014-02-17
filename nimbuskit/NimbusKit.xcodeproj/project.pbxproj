@@ -67,6 +67,9 @@
 		66CBA63618B29E12003BC379 /* NITableViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 66CBA62018B29E12003BC379 /* NITableViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66CBA63718B29E12003BC379 /* NITableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CBA62118B29E12003BC379 /* NITableViewModel.m */; };
 		66CBA63818B29E12003BC379 /* NITableViewModel+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 66CBA62218B29E12003BC379 /* NITableViewModel+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66CBA63D18B2A107003BC379 /* NICellFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CBA63A18B2A107003BC379 /* NICellFactoryTests.m */; };
+		66CBA63E18B2A107003BC379 /* NIMutableTableViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CBA63B18B2A107003BC379 /* NIMutableTableViewModelTests.m */; };
+		66CBA63F18B2A107003BC379 /* NITableViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CBA63C18B2A107003BC379 /* NITableViewModelTests.m */; };
 		66E8F61C18B294FA005B65B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8F61B18B294FA005B65B0 /* Foundation.framework */; };
 		66E8F62A18B294FA005B65B0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8F62918B294FA005B65B0 /* XCTest.framework */; };
 		66E8F62B18B294FA005B65B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8F61B18B294FA005B65B0 /* Foundation.framework */; };
@@ -151,6 +154,9 @@
 		66CBA62018B29E12003BC379 /* NITableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NITableViewModel.h; sourceTree = "<group>"; };
 		66CBA62118B29E12003BC379 /* NITableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NITableViewModel.m; sourceTree = "<group>"; };
 		66CBA62218B29E12003BC379 /* NITableViewModel+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NITableViewModel+Private.h"; sourceTree = "<group>"; };
+		66CBA63A18B2A107003BC379 /* NICellFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NICellFactoryTests.m; sourceTree = "<group>"; };
+		66CBA63B18B2A107003BC379 /* NIMutableTableViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMutableTableViewModelTests.m; sourceTree = "<group>"; };
+		66CBA63C18B2A107003BC379 /* NITableViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NITableViewModelTests.m; sourceTree = "<group>"; };
 		66E8F61818B294FA005B65B0 /* libNimbusKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNimbusKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E8F61B18B294FA005B65B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66E8F61F18B294FA005B65B0 /* NimbusKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NimbusKit-Prefix.pch"; path = "src/NimbusKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -261,6 +267,17 @@
 			path = ../../features/tables/src;
 			sourceTree = "<group>";
 		};
+		66CBA63918B2A0F7003BC379 /* tables */ = {
+			isa = PBXGroup;
+			children = (
+				66CBA63A18B2A107003BC379 /* NICellFactoryTests.m */,
+				66CBA63B18B2A107003BC379 /* NIMutableTableViewModelTests.m */,
+				66CBA63C18B2A107003BC379 /* NITableViewModelTests.m */,
+			);
+			name = tables;
+			path = tables/tests;
+			sourceTree = "<group>";
+		};
 		66E8F60F18B294FA005B65B0 = {
 			isa = PBXGroup;
 			children = (
@@ -308,6 +325,7 @@
 			isa = PBXGroup;
 			children = (
 				66E8F64218B2955F005B65B0 /* core */,
+				66CBA63918B2A0F7003BC379 /* tables */,
 				66E8F63218B294FA005B65B0 /* resources */,
 			);
 			name = tests;
@@ -610,9 +628,12 @@
 			files = (
 				66A830F918B29B900017FBD9 /* NICommonMetricsTests.m in Sources */,
 				66A830FD18B29B900017FBD9 /* NINetworkActivityTests.m in Sources */,
+				66CBA63F18B2A107003BC379 /* NITableViewModelTests.m in Sources */,
 				66A8310018B29B900017FBD9 /* NIRuntimeClassModificationsTests.m in Sources */,
 				66A8310318B29B900017FBD9 /* NSDate+UnitTesting.m in Sources */,
+				66CBA63E18B2A107003BC379 /* NIMutableTableViewModelTests.m in Sources */,
 				66A830FA18B29B900017FBD9 /* NICoreAdditionTests.m in Sources */,
+				66CBA63D18B2A107003BC379 /* NICellFactoryTests.m in Sources */,
 				66A830FE18B29B900017FBD9 /* NINonEmptyCollectionTestingTests.m in Sources */,
 				66A830FC18B29B900017FBD9 /* NIMemoryCacheTests.m in Sources */,
 				66A8310118B29B900017FBD9 /* NIStateTests.m in Sources */,
