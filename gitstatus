@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-refresh_feature() {
+status_of_feature() {
   reponame=$1
   foldername=$(echo $1| tr '[:upper:]' '[:lower:]')
   featurefolder="features/$foldername"
@@ -24,11 +24,12 @@ refresh_feature() {
   git status $featurefolder
 }
 
-refresh_feature Actions
-refresh_feature AttributedLabel
-refresh_feature Core
-refresh_feature SnapshotRotation
-refresh_feature Tables
+status_of_feature Actions
+status_of_feature AttributedLabel
+status_of_feature Badge
+status_of_feature Core
+status_of_feature SnapshotRotation
+status_of_feature Tables
 
 echo "Status of Catalog + Framework"
 git status

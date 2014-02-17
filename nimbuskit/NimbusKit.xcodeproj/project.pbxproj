@@ -77,6 +77,9 @@
 		66D91E1D18B2AF4E00D0A8A0 /* NSMutableAttributedString+NimbusAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 66CBA64618B2AF30003BC379 /* NSMutableAttributedString+NimbusAttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66D91E1E18B2AF6B00D0A8A0 /* NIAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CBA64318B2AF30003BC379 /* NIAttributedLabel.m */; };
 		66D91E1F18B2AF6D00D0A8A0 /* NSMutableAttributedString+NimbusAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CBA64718B2AF30003BC379 /* NSMutableAttributedString+NimbusAttributedLabel.m */; };
+		66D91E2918B2B20500D0A8A0 /* NIBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D91E2618B2B20500D0A8A0 /* NIBadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D91E2A18B2B20500D0A8A0 /* NIBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D91E2718B2B20500D0A8A0 /* NIBadgeView.m */; };
+		66D91E2B18B2B20500D0A8A0 /* NimbusBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D91E2818B2B20500D0A8A0 /* NimbusBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66E8F61C18B294FA005B65B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8F61B18B294FA005B65B0 /* Foundation.framework */; };
 		66E8F62A18B294FA005B65B0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8F62918B294FA005B65B0 /* XCTest.framework */; };
 		66E8F62B18B294FA005B65B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8F61B18B294FA005B65B0 /* Foundation.framework */; };
@@ -174,6 +177,10 @@
 		66D91E2218B2B05E00D0A8A0 /* deps */ = {isa = PBXFileReference; lastKnownFileType = text; name = deps; path = ../deps; sourceTree = "<group>"; };
 		66D91E2318B2B06900D0A8A0 /* deps */ = {isa = PBXFileReference; lastKnownFileType = text; name = deps; path = ../deps; sourceTree = "<group>"; };
 		66D91E2418B2B08000D0A8A0 /* deps */ = {isa = PBXFileReference; lastKnownFileType = text; name = deps; path = ../deps; sourceTree = "<group>"; };
+		66D91E2618B2B20500D0A8A0 /* NIBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIBadgeView.h; sourceTree = "<group>"; };
+		66D91E2718B2B20500D0A8A0 /* NIBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIBadgeView.m; sourceTree = "<group>"; };
+		66D91E2818B2B20500D0A8A0 /* NimbusBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NimbusBadge.h; sourceTree = "<group>"; };
+		66D91E2C18B2B21200D0A8A0 /* deps */ = {isa = PBXFileReference; lastKnownFileType = text; name = deps; path = ../deps; sourceTree = "<group>"; };
 		66E8F61818B294FA005B65B0 /* libNimbusKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNimbusKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E8F61B18B294FA005B65B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66E8F61F18B294FA005B65B0 /* NimbusKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NimbusKit-Prefix.pch"; path = "src/NimbusKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -310,6 +317,18 @@
 			path = ../../features/attributedlabel/src;
 			sourceTree = "<group>";
 		};
+		66D91E2518B2B1F100D0A8A0 /* badge */ = {
+			isa = PBXGroup;
+			children = (
+				66D91E2C18B2B21200D0A8A0 /* deps */,
+				66D91E2618B2B20500D0A8A0 /* NIBadgeView.h */,
+				66D91E2718B2B20500D0A8A0 /* NIBadgeView.m */,
+				66D91E2818B2B20500D0A8A0 /* NimbusBadge.h */,
+			);
+			name = badge;
+			path = ../../features/badge/src;
+			sourceTree = "<group>";
+		};
 		66E8F60F18B294FA005B65B0 = {
 			isa = PBXGroup;
 			children = (
@@ -346,6 +365,7 @@
 				66E8F6C218B2972E005B65B0 /* NimbusKit.h */,
 				66E8F67D18B29580005B65B0 /* actions */,
 				66CBA64118B2AF16003BC379 /* attributedlabel */,
+				66D91E2518B2B1F100D0A8A0 /* badge */,
 				66E8F64118B2953B005B65B0 /* core */,
 				66E8F68318B29596005B65B0 /* snapshotrotation */,
 				66CBA60C18B29DE2003BC379 /* tables */,
@@ -525,6 +545,8 @@
 				66A830D318B29B460017FBD9 /* UIResponder+NimbusCore.h in Headers */,
 				66A830D418B29B460017FBD9 /* NISnapshotRotation.h in Headers */,
 				66D91E1C18B2AF4B00D0A8A0 /* NimbusAttributedLabel.h in Headers */,
+				66D91E2B18B2B20500D0A8A0 /* NimbusBadge.h in Headers */,
+				66D91E2918B2B20500D0A8A0 /* NIBadgeView.h in Headers */,
 				66D91E1D18B2AF4E00D0A8A0 /* NSMutableAttributedString+NimbusAttributedLabel.h in Headers */,
 				66D91E1B18B2AF4400D0A8A0 /* NIAttributedLabel.h in Headers */,
 			);
@@ -642,6 +664,7 @@
 				66CBA62418B29E12003BC379 /* NICellBackgrounds.m in Sources */,
 				66E8F67618B29577005B65B0 /* NIOperations.m in Sources */,
 				66CBA63318B29E12003BC379 /* NIRadioGroupController.m in Sources */,
+				66D91E2A18B2B20500D0A8A0 /* NIBadgeView.m in Sources */,
 				66E8F67518B29577005B65B0 /* NINonRetainingCollections.m in Sources */,
 				66E8F67018B29577005B65B0 /* NIFoundationMethods.m in Sources */,
 				66E8F68718B295AA005B65B0 /* NISnapshotRotation.m in Sources */,
