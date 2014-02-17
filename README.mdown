@@ -1,0 +1,13 @@
+NimbusKit
+=========
+
+NimbusKit is the iOS framework whose feature set grows only as fast as its documentation.
+
+Getting Started
+---------------
+
+- Clone this repository `https://github.com/NimbusKit/Catalog.git`.
+- cd to the Catalog directory.
+- Run the command `./refresh_features`
+
+All of NimbusKit's features will be cloned to your computer in the `Catalog/features` folder.
