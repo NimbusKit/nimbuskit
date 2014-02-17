@@ -25,6 +25,7 @@ refresh_feature() {
 }
 
 refresh_feature Actions
+refresh_feature AttributedLabel
 refresh_feature Core
 refresh_feature SnapshotRotation
 refresh_feature Tables
