@@ -113,6 +113,8 @@
 		6617C9EE18B25B81006BABCE /* NIViewRecycler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIViewRecycler.m; sourceTree = "<group>"; };
 		6617C9EF18B25B81006BABCE /* UIResponder+NimbusCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+NimbusCore.h"; sourceTree = "<group>"; };
 		6617C9F018B25B81006BABCE /* UIResponder+NimbusCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+NimbusCore.m"; sourceTree = "<group>"; };
+		6671560D18B27316007FF94F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6671560E18B27316007FF94F /* NOTICE */ = {isa = PBXFileReference; lastKnownFileType = text; path = NOTICE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,8 @@
 		6617C97318B25A93006BABCE = {
 			isa = PBXGroup;
 			children = (
+				6671560D18B27316007FF94F /* LICENSE */,
+				6671560E18B27316007FF94F /* NOTICE */,
 				6617C98518B25A93006BABCE /* Catalog */,
 				6617C99E18B25A93006BABCE /* CatalogTests */,
 				6617C9B718B25B11006BABCE /* NimbusKit */,
