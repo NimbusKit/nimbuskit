@@ -45,5 +45,6 @@ refresh_feature() {
   fi
 }
 
+refresh_feature Actions
 refresh_feature Core
 refresh_feature SnapshotRotation

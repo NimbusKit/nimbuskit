@@ -115,6 +115,8 @@
 		6617C9F018B25B81006BABCE /* UIResponder+NimbusCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+NimbusCore.m"; sourceTree = "<group>"; };
 		6671560D18B27316007FF94F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6671560E18B27316007FF94F /* NOTICE */ = {isa = PBXFileReference; lastKnownFileType = text; path = NOTICE; sourceTree = "<group>"; };
+		6671564B18B279A2007FF94F /* Doxyfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Doxyfile; path = ../docs/Doxyfile; sourceTree = "<group>"; };
+		6671564C18B279A2007FF94F /* Doxyfile-docset */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Doxyfile-docset"; path = "../docs/Doxyfile-docset"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				6617C98518B25A93006BABCE /* Catalog */,
 				6617C99E18B25A93006BABCE /* CatalogTests */,
 				6617C9B718B25B11006BABCE /* NimbusKit */,
+				6671564D18B279A4007FF94F /* docs */,
 				6617C97E18B25A93006BABCE /* Frameworks */,
 				6617C97D18B25A93006BABCE /* Products */,
 			);
@@ -274,6 +277,15 @@
 			);
 			name = core;
 			path = ../../features/core/src;
+			sourceTree = "<group>";
+		};
+		6671564D18B279A4007FF94F /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				6671564B18B279A2007FF94F /* Doxyfile */,
+				6671564C18B279A2007FF94F /* Doxyfile-docset */,
+			);
+			name = docs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
