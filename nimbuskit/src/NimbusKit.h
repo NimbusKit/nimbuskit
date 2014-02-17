@@ -21,3 +21,4 @@
 #import <NimbusKit/NimbusActions.h>
 #import <NimbusKit/NimbusCore.h>
 #import <NimbusKit/NimbusSnapshotRotation.h>
+#import <NimbusKit/NimbusTables.h>
