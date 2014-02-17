@@ -61,6 +61,7 @@
 		6671564C18B279A2007FF94F /* Doxyfile-docset */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; name = "Doxyfile-docset"; path = "../docs/Doxyfile-docset"; sourceTree = "<group>"; };
 		66D91E2E18B2B32400D0A8A0 /* gitstatus */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = gitstatus; path = ../gitstatus; sourceTree = "<group>"; };
 		66D91E2F18B2B32400D0A8A0 /* refresh_features */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = refresh_features; path = ../refresh_features; sourceTree = "<group>"; };
+		66D91E4818B2B7F800D0A8A0 /* commit_all */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = commit_all; path = ../commit_all; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +147,7 @@
 			children = (
 				6671564B18B279A2007FF94F /* Doxyfile */,
 				6671564C18B279A2007FF94F /* Doxyfile-docset */,
+				66D91E4818B2B7F800D0A8A0 /* commit_all */,
 				66D91E2E18B2B32400D0A8A0 /* gitstatus */,
 				66D91E2F18B2B32400D0A8A0 /* refresh_features */,
 			);

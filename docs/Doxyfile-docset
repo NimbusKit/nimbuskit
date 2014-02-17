@@ -757,6 +757,7 @@ INPUT                  = \
                          features/actions/src \
                          features/attributedlabel/src \
                          features/badge/src \
+                         features/collections/src \
                          features/core/src \
                          features/snapshotrotation/src \
                          features/tables/src \

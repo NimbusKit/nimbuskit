@@ -20,8 +20,6 @@ commit_feature() {
   foldername=$(echo $1| tr '[:upper:]' '[:lower:]')
   featurefolder="features/$foldername"
 
-  echo
-  echo "Status of $reponame"
   pushd $featurefolder > /dev/null
   git add .
   git commit -a
@@ -31,6 +29,8 @@ commit_feature() {
 commit_feature Actions
 commit_feature AttributedLabel
 commit_feature Badge
+commit_feature Collections
 commit_feature Core
 commit_feature SnapshotRotation
 commit_feature Tables
+

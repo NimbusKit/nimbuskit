@@ -30,6 +30,7 @@ status_of_feature() {
 status_of_feature Actions
 status_of_feature AttributedLabel
 status_of_feature Badge
+status_of_feature Collections
 status_of_feature Core
 status_of_feature SnapshotRotation
 status_of_feature Tables
