@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-status_of_feature() {
+commit_feature() {
   reponame=$1
   foldername=$(echo $1| tr '[:upper:]' '[:lower:]')
   featurefolder="features/$foldername"
@@ -23,17 +23,14 @@ status_of_feature() {
   echo
   echo "Status of $reponame"
   pushd $featurefolder > /dev/null
-  git status
+  git add .
+  git commit -a
   popd > /dev/null
 }
 
-status_of_feature Actions
-status_of_feature AttributedLabel
-status_of_feature Badge
-status_of_feature Core
-status_of_feature SnapshotRotation
-status_of_feature Tables
-
-echo
-echo "Status of Catalog + Framework"
-git status
+commit_feature Actions
+commit_feature AttributedLabel
+commit_feature Badge
+commit_feature Core
+commit_feature SnapshotRotation
+commit_feature Tables
