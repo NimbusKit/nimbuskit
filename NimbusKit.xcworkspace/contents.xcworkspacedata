@@ -5,12 +5,6 @@
       location = "group:catalog/Catalog.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:features/actions/Actions.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:features/core/Core.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:features/snapshotrotation/SnapshotRotation.xcodeproj">
+      location = "group:framework/Framework.xcodeproj">
    </FileRef>
 </Workspace>
