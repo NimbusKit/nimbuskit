@@ -20,10 +20,17 @@ mkdir -p features
 WRITE_ACCESS_BASE_URL="git@github.com:NimbusKit/"
 READ_ONLY_BASE_URL="https://github.com/NimbusKit/"
 
+if grep -Fq "url = git@github.com:NimbusKit/Catalog.git" .git/config
+then
+  BASE_URL=$WRITE_ACCESS_BASE_URL
+else
+  BASE_URL=$READ_ONLY_BASE_URL
+fi
+
 refresh_feature() {
   reponame=$1
   foldername=$(echo $1| tr '[:upper:]' '[:lower:]')
-  repo="${READ_ONLY_BASE_URL}$reponame.git"
+  repo="${BASE_URL}$reponame.git"
   featurefolder="features/$foldername"
 
   if ! ls $featurefolder 1>/dev/null 2>/dev/null; then
