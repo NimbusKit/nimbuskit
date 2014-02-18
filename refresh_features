@@ -54,6 +54,7 @@ refresh_feature Interapp
 refresh_feature NetworkImage
 refresh_feature Overview
 refresh_feature PagingScrollView
+refresh_feature Photos
 refresh_feature SnapshotRotation
 refresh_feature Tables
 refresh_feature TextField

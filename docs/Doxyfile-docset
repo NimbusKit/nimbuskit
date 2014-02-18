@@ -763,6 +763,7 @@ INPUT                  = \
                          features/networkimage/src \
                          features/overview/src \
                          features/pagingscrollview/src \
+                         features/photos/src \
                          features/snapshotrotation/src \
                          features/tables/src \
                          features/textfield/src \

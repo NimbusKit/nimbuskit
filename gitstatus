@@ -36,6 +36,7 @@ status_of_feature Interapp
 status_of_feature NetworkImage
 status_of_feature Overview
 status_of_feature PagingScrollView
+status_of_feature Photos
 status_of_feature SnapshotRotation
 status_of_feature Tables
 status_of_feature TextField
