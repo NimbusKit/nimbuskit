@@ -123,6 +123,12 @@
 		66D91E9E18B2FAA700D0A8A0 /* NITextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D91E9C18B2FAA700D0A8A0 /* NITextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66D91E9F18B2FAA700D0A8A0 /* NITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D91E9D18B2FAA700D0A8A0 /* NITextField.m */; };
 		66D91EA118B2FABA00D0A8A0 /* NimbusTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D91EA018B2FABA00D0A8A0 /* NimbusTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D91EAB18B2FBA300D0A8A0 /* NimbusPagingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D91EA418B2FBA300D0A8A0 /* NimbusPagingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D91EAD18B2FBA300D0A8A0 /* NIPagingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D91EA618B2FBA300D0A8A0 /* NIPagingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D91EAE18B2FBA300D0A8A0 /* NIPagingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D91EA718B2FBA300D0A8A0 /* NIPagingScrollView.m */; };
+		66D91EAF18B2FBA300D0A8A0 /* NIPagingScrollView+Subclassing.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D91EA818B2FBA300D0A8A0 /* NIPagingScrollView+Subclassing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D91EB018B2FBA300D0A8A0 /* NIPagingScrollViewPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D91EA918B2FBA300D0A8A0 /* NIPagingScrollViewPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D91EB118B2FBA300D0A8A0 /* NIPagingScrollViewPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D91EAA18B2FBA300D0A8A0 /* NIPagingScrollViewPage.m */; };
 		66E8F61C18B294FA005B65B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8F61B18B294FA005B65B0 /* Foundation.framework */; };
 		66E8F62A18B294FA005B65B0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8F62918B294FA005B65B0 /* XCTest.framework */; };
 		66E8F62B18B294FA005B65B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8F61B18B294FA005B65B0 /* Foundation.framework */; };
@@ -274,6 +280,13 @@
 		66D91E9D18B2FAA700D0A8A0 /* NITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NITextField.m; sourceTree = "<group>"; };
 		66D91EA018B2FABA00D0A8A0 /* NimbusTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NimbusTextField.h; sourceTree = "<group>"; };
 		66D91EA218B2FB3900D0A8A0 /* deps.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = deps.json; path = ../deps.json; sourceTree = "<group>"; };
+		66D91EA418B2FBA300D0A8A0 /* NimbusPagingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NimbusPagingScrollView.h; sourceTree = "<group>"; };
+		66D91EA618B2FBA300D0A8A0 /* NIPagingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPagingScrollView.h; sourceTree = "<group>"; };
+		66D91EA718B2FBA300D0A8A0 /* NIPagingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPagingScrollView.m; sourceTree = "<group>"; };
+		66D91EA818B2FBA300D0A8A0 /* NIPagingScrollView+Subclassing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NIPagingScrollView+Subclassing.h"; sourceTree = "<group>"; };
+		66D91EA918B2FBA300D0A8A0 /* NIPagingScrollViewPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPagingScrollViewPage.h; sourceTree = "<group>"; };
+		66D91EAA18B2FBA300D0A8A0 /* NIPagingScrollViewPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPagingScrollViewPage.m; sourceTree = "<group>"; };
+		66D91EB218B2FC8700D0A8A0 /* deps.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = deps.json; path = ../deps.json; sourceTree = "<group>"; };
 		66E8F61818B294FA005B65B0 /* libNimbusKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNimbusKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E8F61B18B294FA005B65B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66E8F61F18B294FA005B65B0 /* NimbusKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NimbusKit-Prefix.pch"; path = "src/NimbusKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -520,6 +533,21 @@
 			path = ../../features/textfield/src;
 			sourceTree = "<group>";
 		};
+		66D91EA318B2FB9300D0A8A0 /* pagingscrollview */ = {
+			isa = PBXGroup;
+			children = (
+				66D91EB218B2FC8700D0A8A0 /* deps.json */,
+				66D91EA418B2FBA300D0A8A0 /* NimbusPagingScrollView.h */,
+				66D91EA618B2FBA300D0A8A0 /* NIPagingScrollView.h */,
+				66D91EA718B2FBA300D0A8A0 /* NIPagingScrollView.m */,
+				66D91EA818B2FBA300D0A8A0 /* NIPagingScrollView+Subclassing.h */,
+				66D91EA918B2FBA300D0A8A0 /* NIPagingScrollViewPage.h */,
+				66D91EAA18B2FBA300D0A8A0 /* NIPagingScrollViewPage.m */,
+			);
+			name = pagingscrollview;
+			path = ../../features/pagingscrollview/src;
+			sourceTree = "<group>";
+		};
 		66E8F60F18B294FA005B65B0 = {
 			isa = PBXGroup;
 			children = (
@@ -562,6 +590,7 @@
 				66D91E4918B2B89E00D0A8A0 /* interapp */,
 				66D91E5318B2BB9A00D0A8A0 /* networkimage */,
 				66D91E6B18B2F83900D0A8A0 /* overview */,
+				66D91EA318B2FB9300D0A8A0 /* pagingscrollview */,
 				66E8F68318B29596005B65B0 /* snapshotrotation */,
 				66CBA60C18B29DE2003BC379 /* tables */,
 				66D91E9B18B2FA9700D0A8A0 /* textfield */,
@@ -764,6 +793,10 @@
 				66D91E1C18B2AF4B00D0A8A0 /* NimbusAttributedLabel.h in Headers */,
 				66D91E2B18B2B20500D0A8A0 /* NimbusBadge.h in Headers */,
 				66D91E2918B2B20500D0A8A0 /* NIBadgeView.h in Headers */,
+				66D91EB018B2FBA300D0A8A0 /* NIPagingScrollViewPage.h in Headers */,
+				66D91EAD18B2FBA300D0A8A0 /* NIPagingScrollView.h in Headers */,
+				66D91EAB18B2FBA300D0A8A0 /* NimbusPagingScrollView.h in Headers */,
+				66D91EAF18B2FBA300D0A8A0 /* NIPagingScrollView+Subclassing.h in Headers */,
 				66D91E1D18B2AF4E00D0A8A0 /* NSMutableAttributedString+NimbusAttributedLabel.h in Headers */,
 				66D91E9818B2F9E400D0A8A0 /* NIWebController.h in Headers */,
 				66D91E9618B2F9E400D0A8A0 /* NimbusWebController.h in Headers */,
@@ -900,6 +933,7 @@
 				66E8F67018B29577005B65B0 /* NIFoundationMethods.m in Sources */,
 				66D91E8318B2F85200D0A8A0 /* NIOverview.m in Sources */,
 				66E8F68718B295AA005B65B0 /* NISnapshotRotation.m in Sources */,
+				66D91EB118B2FBA300D0A8A0 /* NIPagingScrollViewPage.m in Sources */,
 				66D91E4F18B2B8B600D0A8A0 /* NIInterapp.m in Sources */,
 				66D91E8918B2F85200D0A8A0 /* NIOverviewMemoryCacheController.m in Sources */,
 				66CBA62A18B29E12003BC379 /* NIFormCellCatalog.m in Sources */,
@@ -910,6 +944,7 @@
 				66E8F66E18B29577005B65B0 /* NIDeviceOrientation.m in Sources */,
 				66CBA62618B29E12003BC379 /* NICellCatalog.m in Sources */,
 				66D91E4518B2B61C00D0A8A0 /* NIMutableCollectionViewModel.m in Sources */,
+				66D91EAE18B2FBA300D0A8A0 /* NIPagingScrollView.m in Sources */,
 				66D91E8F18B2F85200D0A8A0 /* NIOverviewView.m in Sources */,
 				66E8F67918B29577005B65B0 /* NISDKAvailability.m in Sources */,
 				66D91E6318B2BBAE00D0A8A0 /* NINetworkImageView.m in Sources */,

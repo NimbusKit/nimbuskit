@@ -25,6 +25,7 @@
 #import <NimbusKit/NimbusCollections.h>
 #import <NimbusKit/NimbusInterapp.h>
 #import <NimbusKit/NimbusNetworkImage.h>
+#import <NimbusKit/NimbusPagingScrollView.h>
 #import <NimbusKit/NimbusOverview.h>
 #import <NimbusKit/NimbusSnapshotRotation.h>
 #import <NimbusKit/NimbusTables.h>
