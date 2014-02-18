@@ -14,30 +14,29 @@
 		6617C98C18B25A93006BABCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6617C98B18B25A93006BABCE /* main.m */; };
 		6617C99018B25A93006BABCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6617C98F18B25A93006BABCE /* AppDelegate.m */; };
 		6617C99218B25A93006BABCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6617C99118B25A93006BABCE /* Images.xcassets */; };
-		66A830BD18B29A160017FBD9 /* libNimbusKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6661C22B18B2991800C0D5F0 /* libNimbusKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6661C22A18B2991800C0D5F0 /* PBXContainerItemProxy */ = {
+		66D91EDF18B41DD000D0A8A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6661C22518B2991700C0D5F0 /* NimbusKit.xcodeproj */;
+			containerPortal = 66D91EDA18B41DD000D0A8A0 /* NimbusKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 66E8F61818B294FA005B65B0;
-			remoteInfo = src;
+			remoteInfo = NimbusKit;
 		};
-		6661C22C18B2991800C0D5F0 /* PBXContainerItemProxy */ = {
+		66D91EE118B41DD000D0A8A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6661C22518B2991700C0D5F0 /* NimbusKit.xcodeproj */;
+			containerPortal = 66D91EDA18B41DD000D0A8A0 /* NimbusKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 66E8F62818B294FA005B65B0;
 			remoteInfo = tests;
 		};
-		66A830B918B29A120017FBD9 /* PBXContainerItemProxy */ = {
+		66D91EE318B41DD800D0A8A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6661C22518B2991700C0D5F0 /* NimbusKit.xcodeproj */;
+			containerPortal = 66D91EDA18B41DD000D0A8A0 /* NimbusKit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 66E8F61718B294FA005B65B0;
-			remoteInfo = src;
+			remoteInfo = NimbusKit;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -54,14 +53,12 @@
 		6617C98F18B25A93006BABCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6617C99118B25A93006BABCE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6617C99818B25A93006BABCE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6661C22518B2991700C0D5F0 /* NimbusKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NimbusKit.xcodeproj; path = ../nimbuskit/NimbusKit.xcodeproj; sourceTree = "<group>"; };
 		6671560D18B27316007FF94F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6671560E18B27316007FF94F /* NOTICE */ = {isa = PBXFileReference; lastKnownFileType = text; name = NOTICE; path = ../NOTICE; sourceTree = "<group>"; };
 		6671564B18B279A2007FF94F /* Doxyfile */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; name = Doxyfile; path = ../docs/Doxyfile; sourceTree = "<group>"; };
 		6671564C18B279A2007FF94F /* Doxyfile-docset */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; name = "Doxyfile-docset"; path = "../docs/Doxyfile-docset"; sourceTree = "<group>"; };
-		66D91E2E18B2B32400D0A8A0 /* gitstatus */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = gitstatus; path = ../gitstatus; sourceTree = "<group>"; };
 		66D91E2F18B2B32400D0A8A0 /* refresh_features */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = refresh_features; path = ../refresh_features; sourceTree = "<group>"; };
-		66D91E4818B2B7F800D0A8A0 /* commit_all */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = commit_all; path = ../commit_all; sourceTree = "<group>"; };
+		66D91EDA18B41DD000D0A8A0 /* NimbusKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NimbusKit.xcodeproj; path = ../framework/NimbusKit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66A830BD18B29A160017FBD9 /* libNimbusKit.a in Frameworks */,
 				6617C98218B25A93006BABCE /* CoreGraphics.framework in Frameworks */,
 				6617C98418B25A93006BABCE /* UIKit.framework in Frameworks */,
 				6617C98018B25A93006BABCE /* Foundation.framework in Frameworks */,
@@ -102,7 +98,7 @@
 		6617C97E18B25A93006BABCE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6661C22518B2991700C0D5F0 /* NimbusKit.xcodeproj */,
+				66D91EDA18B41DD000D0A8A0 /* NimbusKit.xcodeproj */,
 				6617C97F18B25A93006BABCE /* Foundation.framework */,
 				6617C98118B25A93006BABCE /* CoreGraphics.framework */,
 				6617C98318B25A93006BABCE /* UIKit.framework */,
@@ -133,25 +129,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6661C22618B2991700C0D5F0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6661C22B18B2991800C0D5F0 /* libNimbusKit.a */,
-				6661C22D18B2991800C0D5F0 /* tests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		6671564D18B279A4007FF94F /* docs */ = {
 			isa = PBXGroup;
 			children = (
 				6671564B18B279A2007FF94F /* Doxyfile */,
 				6671564C18B279A2007FF94F /* Doxyfile-docset */,
-				66D91E4818B2B7F800D0A8A0 /* commit_all */,
-				66D91E2E18B2B32400D0A8A0 /* gitstatus */,
 				66D91E2F18B2B32400D0A8A0 /* refresh_features */,
 			);
 			name = docs;
+			sourceTree = "<group>";
+		};
+		66D91EDB18B41DD000D0A8A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66D91EE018B41DD000D0A8A0 /* libNimbusKit.a */,
+				66D91EE218B41DD000D0A8A0 /* tests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,7 +162,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				66A830BA18B29A120017FBD9 /* PBXTargetDependency */,
+				66D91EE418B41DD800D0A8A0 /* PBXTargetDependency */,
 			);
 			name = Catalog;
 			productName = Catalog;
@@ -195,8 +189,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 6661C22618B2991700C0D5F0 /* Products */;
-					ProjectRef = 6661C22518B2991700C0D5F0 /* NimbusKit.xcodeproj */;
+					ProductGroup = 66D91EDB18B41DD000D0A8A0 /* Products */;
+					ProjectRef = 66D91EDA18B41DD000D0A8A0 /* NimbusKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -207,18 +201,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		6661C22B18B2991800C0D5F0 /* libNimbusKit.a */ = {
+		66D91EE018B41DD000D0A8A0 /* libNimbusKit.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libNimbusKit.a;
-			remoteRef = 6661C22A18B2991800C0D5F0 /* PBXContainerItemProxy */;
+			remoteRef = 66D91EDF18B41DD000D0A8A0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6661C22D18B2991800C0D5F0 /* tests.xctest */ = {
+		66D91EE218B41DD000D0A8A0 /* tests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = tests.xctest;
-			remoteRef = 6661C22C18B2991800C0D5F0 /* PBXContainerItemProxy */;
+			remoteRef = 66D91EE118B41DD000D0A8A0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -248,10 +242,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		66A830BA18B29A120017FBD9 /* PBXTargetDependency */ = {
+		66D91EE418B41DD800D0A8A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = src;
-			targetProxy = 66A830B918B29A120017FBD9 /* PBXContainerItemProxy */;
+			name = NimbusKit;
+			targetProxy = 66D91EE318B41DD800D0A8A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

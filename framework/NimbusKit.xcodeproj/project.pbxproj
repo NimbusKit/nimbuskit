@@ -688,7 +688,7 @@
 				66E8F63418B294FA005B65B0 /* InfoPlist.strings */,
 			);
 			name = resources;
-			path = ../nimbuskit/tests;
+			path = ../framework/tests;
 			sourceTree = "<group>";
 		};
 		66E8F64118B2953B005B65B0 /* core */ = {
