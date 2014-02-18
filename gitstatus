@@ -34,6 +34,7 @@ status_of_feature Collections
 status_of_feature Core
 status_of_feature Interapp
 status_of_feature NetworkImage
+status_of_feature Overview
 status_of_feature SnapshotRotation
 status_of_feature Tables
 

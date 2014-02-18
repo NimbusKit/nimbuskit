@@ -52,6 +52,7 @@ refresh_feature Collections
 refresh_feature Core
 refresh_feature Interapp
 refresh_feature NetworkImage
+refresh_feature Overview
 refresh_feature SnapshotRotation
 refresh_feature Tables
 
