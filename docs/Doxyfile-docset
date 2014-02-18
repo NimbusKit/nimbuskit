@@ -764,6 +764,7 @@ INPUT                  = \
                          features/overview/src \
                          features/snapshotrotation/src \
                          features/tables/src \
+                         features/textfield/src \
                          features/webcontroller/src \
 
 # This tag can be used to specify the character encoding of the source files

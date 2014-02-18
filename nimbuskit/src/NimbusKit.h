@@ -28,4 +28,5 @@
 #import <NimbusKit/NimbusOverview.h>
 #import <NimbusKit/NimbusSnapshotRotation.h>
 #import <NimbusKit/NimbusTables.h>
+#import <NimbusKit/NimbusTextField.h>
 #import <NimbusKit/NimbusWebController.h>
