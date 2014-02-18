@@ -32,6 +32,7 @@ commit_feature Badge
 commit_feature Collections
 commit_feature Core
 commit_feature Interapp
+commit_feature NetworkImage
 commit_feature SnapshotRotation
 commit_feature Tables
 

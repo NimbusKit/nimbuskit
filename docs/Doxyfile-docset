@@ -760,6 +760,7 @@ INPUT                  = \
                          features/collections/src \
                          features/core/src \
                          features/interapp/src \
+                         features/networkimage/src \
                          features/snapshotrotation/src \
                          features/tables/src \
 

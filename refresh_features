@@ -51,6 +51,7 @@ refresh_feature Badge
 refresh_feature Collections
 refresh_feature Core
 refresh_feature Interapp
+refresh_feature NetworkImage
 refresh_feature SnapshotRotation
 refresh_feature Tables
 
