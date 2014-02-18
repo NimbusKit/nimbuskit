@@ -766,6 +766,7 @@ INPUT                  = \
                          features/photos/src \
                          features/snapshotrotation/src \
                          features/tables/src \
+                         features/tableviewcontroller/src \
                          features/textfield/src \
                          features/webcontroller/src \
 

@@ -38,6 +38,7 @@ commit_feature PagingScrollView
 commit_feature Photos
 commit_feature SnapshotRotation
 commit_feature Tables
+commit_feature TableViewController
 commit_feature TextField
 commit_feature WebController
 

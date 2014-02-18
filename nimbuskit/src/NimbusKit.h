@@ -30,5 +30,6 @@
 #import <NimbusKit/NimbusPhotos.h>
 #import <NimbusKit/NimbusSnapshotRotation.h>
 #import <NimbusKit/NimbusTables.h>
+#import <NimbusKit/NimbusTableViewController.h>
 #import <NimbusKit/NimbusTextField.h>
 #import <NimbusKit/NimbusWebController.h>

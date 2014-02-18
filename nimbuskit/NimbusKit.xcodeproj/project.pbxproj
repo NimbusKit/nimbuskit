@@ -142,6 +142,9 @@
 		66D91ECD18B2FDE200D0A8A0 /* NIPhotoScrubberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D91EBF18B2FDE200D0A8A0 /* NIPhotoScrubberView.m */; };
 		66D91ECE18B2FDE200D0A8A0 /* NIToolbarPhotoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D91EC018B2FDE200D0A8A0 /* NIToolbarPhotoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66D91ECF18B2FDE200D0A8A0 /* NIToolbarPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D91EC118B2FDE200D0A8A0 /* NIToolbarPhotoViewController.m */; };
+		66D91ED618B38F2B00D0A8A0 /* NimbusTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D91ED318B38F2B00D0A8A0 /* NimbusTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D91ED718B38F2B00D0A8A0 /* NITableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D91ED418B38F2B00D0A8A0 /* NITableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D91ED818B38F2B00D0A8A0 /* NITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D91ED518B38F2B00D0A8A0 /* NITableViewController.m */; };
 		66E8F61C18B294FA005B65B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8F61B18B294FA005B65B0 /* Foundation.framework */; };
 		66E8F62A18B294FA005B65B0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8F62918B294FA005B65B0 /* XCTest.framework */; };
 		66E8F62B18B294FA005B65B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8F61B18B294FA005B65B0 /* Foundation.framework */; };
@@ -314,6 +317,10 @@
 		66D91EC018B2FDE200D0A8A0 /* NIToolbarPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIToolbarPhotoViewController.h; sourceTree = "<group>"; };
 		66D91EC118B2FDE200D0A8A0 /* NIToolbarPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIToolbarPhotoViewController.m; sourceTree = "<group>"; };
 		66D91ED118B2FF1F00D0A8A0 /* deps.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = deps.json; path = ../deps.json; sourceTree = "<group>"; };
+		66D91ED318B38F2B00D0A8A0 /* NimbusTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NimbusTableViewController.h; sourceTree = "<group>"; };
+		66D91ED418B38F2B00D0A8A0 /* NITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NITableViewController.h; sourceTree = "<group>"; };
+		66D91ED518B38F2B00D0A8A0 /* NITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NITableViewController.m; sourceTree = "<group>"; };
+		66D91ED918B38FD100D0A8A0 /* deps.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = deps.json; path = ../deps.json; sourceTree = "<group>"; };
 		66E8F61818B294FA005B65B0 /* libNimbusKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNimbusKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E8F61B18B294FA005B65B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66E8F61F18B294FA005B65B0 /* NimbusKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NimbusKit-Prefix.pch"; path = "src/NimbusKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -597,6 +604,18 @@
 			path = ../../features/photos/src;
 			sourceTree = "<group>";
 		};
+		66D91ED218B38F1400D0A8A0 /* tableviewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				66D91ED918B38FD100D0A8A0 /* deps.json */,
+				66D91ED318B38F2B00D0A8A0 /* NimbusTableViewController.h */,
+				66D91ED418B38F2B00D0A8A0 /* NITableViewController.h */,
+				66D91ED518B38F2B00D0A8A0 /* NITableViewController.m */,
+			);
+			name = tableviewcontroller;
+			path = ../../features/tableviewcontroller/src;
+			sourceTree = "<group>";
+		};
 		66E8F60F18B294FA005B65B0 = {
 			isa = PBXGroup;
 			children = (
@@ -643,6 +662,7 @@
 				66D91EB318B2FDD200D0A8A0 /* photos */,
 				66E8F68318B29596005B65B0 /* snapshotrotation */,
 				66CBA60C18B29DE2003BC379 /* tables */,
+				66D91ED218B38F1400D0A8A0 /* tableviewcontroller */,
 				66D91E9B18B2FA9700D0A8A0 /* textfield */,
 				66D91E9118B2F9D200D0A8A0 /* webcontroller */,
 			);
@@ -860,6 +880,8 @@
 				66D91E9818B2F9E400D0A8A0 /* NIWebController.h in Headers */,
 				66D91E9618B2F9E400D0A8A0 /* NimbusWebController.h in Headers */,
 				66D91E9E18B2FAA700D0A8A0 /* NITextField.h in Headers */,
+				66D91ED618B38F2B00D0A8A0 /* NimbusTableViewController.h in Headers */,
+				66D91ED718B38F2B00D0A8A0 /* NITableViewController.h in Headers */,
 				66D91EA118B2FABA00D0A8A0 /* NimbusTextField.h in Headers */,
 				66D91E7E18B2F85200D0A8A0 /* NIDeviceInfo.h in Headers */,
 				66D91E1B18B2AF4400D0A8A0 /* NIAttributedLabel.h in Headers */,
@@ -980,6 +1002,7 @@
 				66E8F68218B2958C005B65B0 /* NIActions.m in Sources */,
 				66E8F67C18B29577005B65B0 /* UIResponder+NimbusCore.m in Sources */,
 				66CBA62418B29E12003BC379 /* NICellBackgrounds.m in Sources */,
+				66D91ED818B38F2B00D0A8A0 /* NITableViewController.m in Sources */,
 				66D91E8518B2F85200D0A8A0 /* NIOverviewGraphView.m in Sources */,
 				66D91E4118B2B61C00D0A8A0 /* NICollectionViewModel.m in Sources */,
 				66D91E9918B2F9E400D0A8A0 /* NIWebController.m in Sources */,

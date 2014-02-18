@@ -57,6 +57,7 @@ refresh_feature PagingScrollView
 refresh_feature Photos
 refresh_feature SnapshotRotation
 refresh_feature Tables
+refresh_feature TableViewController
 refresh_feature TextField
 refresh_feature WebController
 

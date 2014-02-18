@@ -39,6 +39,7 @@ status_of_feature PagingScrollView
 status_of_feature Photos
 status_of_feature SnapshotRotation
 status_of_feature Tables
+status_of_feature TableViewController
 status_of_feature TextField
 status_of_feature WebController
 
