@@ -55,4 +55,5 @@ refresh_feature NetworkImage
 refresh_feature Overview
 refresh_feature SnapshotRotation
 refresh_feature Tables
+refresh_feature WebController
 

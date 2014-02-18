@@ -37,6 +37,7 @@ status_of_feature NetworkImage
 status_of_feature Overview
 status_of_feature SnapshotRotation
 status_of_feature Tables
+status_of_feature WebController
 
 echo
 echo "Status of Catalog + Framework"

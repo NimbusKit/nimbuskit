@@ -117,6 +117,9 @@
 		66D91E8C18B2F85200D0A8A0 /* NIOverviewSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D91E7A18B2F85200D0A8A0 /* NIOverviewSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66D91E8D18B2F85200D0A8A0 /* NIOverviewSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D91E7B18B2F85200D0A8A0 /* NIOverviewSwizzling.m */; };
 		66D91E8F18B2F85200D0A8A0 /* NIOverviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D91E7D18B2F85200D0A8A0 /* NIOverviewView.m */; };
+		66D91E9618B2F9E400D0A8A0 /* NimbusWebController.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D91E9218B2F9E400D0A8A0 /* NimbusWebController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D91E9818B2F9E400D0A8A0 /* NIWebController.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D91E9418B2F9E400D0A8A0 /* NIWebController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D91E9918B2F9E400D0A8A0 /* NIWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D91E9518B2F9E400D0A8A0 /* NIWebController.m */; };
 		66E8F61C18B294FA005B65B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8F61B18B294FA005B65B0 /* Foundation.framework */; };
 		66E8F62A18B294FA005B65B0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8F62918B294FA005B65B0 /* XCTest.framework */; };
 		66E8F62B18B294FA005B65B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8F61B18B294FA005B65B0 /* Foundation.framework */; };
@@ -260,6 +263,10 @@
 		66D91E7C18B2F85200D0A8A0 /* NIOverviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIOverviewView.h; sourceTree = "<group>"; };
 		66D91E7D18B2F85200D0A8A0 /* NIOverviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIOverviewView.m; sourceTree = "<group>"; };
 		66D91E9018B2F91200D0A8A0 /* deps.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = deps.json; path = ../deps.json; sourceTree = "<group>"; };
+		66D91E9218B2F9E400D0A8A0 /* NimbusWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NimbusWebController.h; sourceTree = "<group>"; };
+		66D91E9418B2F9E400D0A8A0 /* NIWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIWebController.h; sourceTree = "<group>"; };
+		66D91E9518B2F9E400D0A8A0 /* NIWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIWebController.m; sourceTree = "<group>"; };
+		66D91E9A18B2F9FA00D0A8A0 /* deps.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = deps.json; path = ../deps.json; sourceTree = "<group>"; };
 		66E8F61818B294FA005B65B0 /* libNimbusKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNimbusKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E8F61B18B294FA005B65B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66E8F61F18B294FA005B65B0 /* NimbusKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NimbusKit-Prefix.pch"; path = "src/NimbusKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -482,6 +489,18 @@
 			path = ../../features/overview/src;
 			sourceTree = "<group>";
 		};
+		66D91E9118B2F9D200D0A8A0 /* webcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				66D91E9A18B2F9FA00D0A8A0 /* deps.json */,
+				66D91E9218B2F9E400D0A8A0 /* NimbusWebController.h */,
+				66D91E9418B2F9E400D0A8A0 /* NIWebController.h */,
+				66D91E9518B2F9E400D0A8A0 /* NIWebController.m */,
+			);
+			name = webcontroller;
+			path = ../../features/webcontroller/src;
+			sourceTree = "<group>";
+		};
 		66E8F60F18B294FA005B65B0 = {
 			isa = PBXGroup;
 			children = (
@@ -526,6 +545,7 @@
 				66D91E6B18B2F83900D0A8A0 /* overview */,
 				66E8F68318B29596005B65B0 /* snapshotrotation */,
 				66CBA60C18B29DE2003BC379 /* tables */,
+				66D91E9118B2F9D200D0A8A0 /* webcontroller */,
 			);
 			name = NimbusKit;
 			path = src;
@@ -725,6 +745,8 @@
 				66D91E2B18B2B20500D0A8A0 /* NimbusBadge.h in Headers */,
 				66D91E2918B2B20500D0A8A0 /* NIBadgeView.h in Headers */,
 				66D91E1D18B2AF4E00D0A8A0 /* NSMutableAttributedString+NimbusAttributedLabel.h in Headers */,
+				66D91E9818B2F9E400D0A8A0 /* NIWebController.h in Headers */,
+				66D91E9618B2F9E400D0A8A0 /* NimbusWebController.h in Headers */,
 				66D91E7E18B2F85200D0A8A0 /* NIDeviceInfo.h in Headers */,
 				66D91E1B18B2AF4400D0A8A0 /* NIAttributedLabel.h in Headers */,
 			);
@@ -846,6 +868,7 @@
 				66CBA62418B29E12003BC379 /* NICellBackgrounds.m in Sources */,
 				66D91E8518B2F85200D0A8A0 /* NIOverviewGraphView.m in Sources */,
 				66D91E4118B2B61C00D0A8A0 /* NICollectionViewModel.m in Sources */,
+				66D91E9918B2F9E400D0A8A0 /* NIWebController.m in Sources */,
 				66E8F67618B29577005B65B0 /* NIOperations.m in Sources */,
 				66CBA63318B29E12003BC379 /* NIRadioGroupController.m in Sources */,
 				66D91E2A18B2B20500D0A8A0 /* NIBadgeView.m in Sources */,
