@@ -31,6 +31,7 @@
 #import <NimbusKit/NimbusPagingScrollView.h>
 #import <NimbusKit/NimbusPhotos.h>
 #import <NimbusKit/NimbusSnapshotRotation.h>
+#import <NimbusKit/NimbusSockit.h>
 #import <NimbusKit/NimbusTables.h>
 #import <NimbusKit/NimbusTableViewController.h>
 #import <NimbusKit/NimbusTextField.h>

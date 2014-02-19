@@ -179,6 +179,10 @@
 		66FE8A0718B4ED220052B4D6 /* NSAttributedStringMarkdownParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 66FE8A0218B4ED220052B4D6 /* NSAttributedStringMarkdownParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66FE8A0818B4ED220052B4D6 /* NSAttributedStringMarkdownParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE8A0318B4ED220052B4D6 /* NSAttributedStringMarkdownParser.m */; };
 		66FE8A1818B4F04E0052B4D6 /* NimbusMarkdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 66FE8A1718B4F04E0052B4D6 /* NimbusMarkdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66FE8A1D18B4F21C0052B4D6 /* NimbusSockit.h in Headers */ = {isa = PBXBuildFile; fileRef = 66FE8A1A18B4F21C0052B4D6 /* NimbusSockit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66FE8A1E18B4F21C0052B4D6 /* SOCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 66FE8A1B18B4F21C0052B4D6 /* SOCKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66FE8A1F18B4F21C0052B4D6 /* SOCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE8A1C18B4F21C0052B4D6 /* SOCKit.m */; };
+		66FE8A2518B4F4040052B4D6 /* SOCKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE8A2418B4F4040052B4D6 /* SOCKitTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -408,6 +412,11 @@
 		66FE8A0E18B4ED4A0052B4D6 /* MarkdownTokens.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkdownTokens.h; sourceTree = "<group>"; };
 		66FE8A1018B4EDB20052B4D6 /* deps.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = deps.json; path = ../deps.json; sourceTree = "<group>"; };
 		66FE8A1718B4F04E0052B4D6 /* NimbusMarkdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NimbusMarkdown.h; sourceTree = "<group>"; };
+		66FE8A1A18B4F21C0052B4D6 /* NimbusSockit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NimbusSockit.h; sourceTree = "<group>"; };
+		66FE8A1B18B4F21C0052B4D6 /* SOCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOCKit.h; sourceTree = "<group>"; };
+		66FE8A1C18B4F21C0052B4D6 /* SOCKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOCKit.m; sourceTree = "<group>"; };
+		66FE8A2018B4F2420052B4D6 /* deps.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = deps.json; path = ../deps.json; sourceTree = "<group>"; };
+		66FE8A2418B4F4040052B4D6 /* SOCKitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOCKitTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -706,6 +715,7 @@
 				66D91EA318B2FB9300D0A8A0 /* pagingscrollview */,
 				66D91EB318B2FDD200D0A8A0 /* photos */,
 				66E8F68318B29596005B65B0 /* snapshotrotation */,
+				66FE8A1918B4F2060052B4D6 /* sockit */,
 				66CBA60C18B29DE2003BC379 /* tables */,
 				66D91ED218B38F1400D0A8A0 /* tableviewcontroller */,
 				66D91E9B18B2FA9700D0A8A0 /* textfield */,
@@ -719,6 +729,7 @@
 			isa = PBXGroup;
 			children = (
 				66E8F64218B2955F005B65B0 /* core */,
+				66FE8A2118B4F3DF0052B4D6 /* sockit */,
 				66CBA63918B2A0F7003BC379 /* tables */,
 				66E8F63218B294FA005B65B0 /* resources */,
 			);
@@ -867,6 +878,27 @@
 			path = ../grammar;
 			sourceTree = "<group>";
 		};
+		66FE8A1918B4F2060052B4D6 /* sockit */ = {
+			isa = PBXGroup;
+			children = (
+				66FE8A2018B4F2420052B4D6 /* deps.json */,
+				66FE8A1A18B4F21C0052B4D6 /* NimbusSockit.h */,
+				66FE8A1B18B4F21C0052B4D6 /* SOCKit.h */,
+				66FE8A1C18B4F21C0052B4D6 /* SOCKit.m */,
+			);
+			name = sockit;
+			path = ../../features/sockit/src;
+			sourceTree = "<group>";
+		};
+		66FE8A2118B4F3DF0052B4D6 /* sockit */ = {
+			isa = PBXGroup;
+			children = (
+				66FE8A2418B4F4040052B4D6 /* SOCKitTests.m */,
+			);
+			name = sockit;
+			path = sockit/tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -960,6 +992,8 @@
 				66D91EEB18B420D500D0A8A0 /* NimbusMemoryMapping.h in Headers */,
 				66FE8A0718B4ED220052B4D6 /* NSAttributedStringMarkdownParser.h in Headers */,
 				66FE8A1818B4F04E0052B4D6 /* NimbusMarkdown.h in Headers */,
+				66FE8A1E18B4F21C0052B4D6 /* SOCKit.h in Headers */,
+				66FE8A1D18B4F21C0052B4D6 /* NimbusSockit.h in Headers */,
 				66D91EE918B4206F00D0A8A0 /* fmemopen.h in Headers */,
 				66D91E7E18B2F85200D0A8A0 /* NIDeviceInfo.h in Headers */,
 				66D91E1B18B2AF4400D0A8A0 /* NIAttributedLabel.h in Headers */,
@@ -1118,6 +1152,7 @@
 				66E8F68718B295AA005B65B0 /* NISnapshotRotation.m in Sources */,
 				66D91EB118B2FBA300D0A8A0 /* NIPagingScrollViewPage.m in Sources */,
 				66D91E4F18B2B8B600D0A8A0 /* NIInterapp.m in Sources */,
+				66FE8A1F18B4F21C0052B4D6 /* SOCKit.m in Sources */,
 				66D91E8918B2F85200D0A8A0 /* NIOverviewMemoryCacheController.m in Sources */,
 				66CBA62A18B29E12003BC379 /* NIFormCellCatalog.m in Sources */,
 				66E8F67318B29577005B65B0 /* NINetworkActivity.m in Sources */,
@@ -1154,6 +1189,7 @@
 			files = (
 				66A830F918B29B900017FBD9 /* NICommonMetricsTests.m in Sources */,
 				66A830FD18B29B900017FBD9 /* NINetworkActivityTests.m in Sources */,
+				66FE8A2518B4F4040052B4D6 /* SOCKitTests.m in Sources */,
 				66CBA63F18B2A107003BC379 /* NITableViewModelTests.m in Sources */,
 				66A8310018B29B900017FBD9 /* NIRuntimeClassModificationsTests.m in Sources */,
 				66A8310318B29B900017FBD9 /* NSDate+UnitTesting.m in Sources */,

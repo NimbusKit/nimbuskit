@@ -767,6 +767,7 @@ INPUT                  = \
                          features/pagingscrollview/src \
                          features/photos/src \
                          features/snapshotrotation/src \
+                         features/sockit/src \
                          features/tables/src \
                          features/tableviewcontroller/src \
                          features/textfield/src \

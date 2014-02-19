@@ -38,6 +38,7 @@ features = [
 	"MemoryMapping",
 	"PagingScrollView",
 	"Photos",
+	"Sockit",
 	"SnapshotRotation",
 	"Tables",
 	"TableViewController",
@@ -116,8 +117,6 @@ EXAMPLES:
 	if not did_anything:
 		parser.print_help()
 
-
 if __name__ == "__main__":
 	sys.exit(main())
-
 
