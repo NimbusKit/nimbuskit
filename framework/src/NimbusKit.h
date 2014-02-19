@@ -14,8 +14,6 @@
 // limitations under the License.
 //
 
-#import <Foundation/Foundation.h>
-
 #define NIMBUSKIT_FRAMEWORK
 
 #import <NimbusKit/NimbusActions.h>
