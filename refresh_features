@@ -53,6 +53,7 @@ refresh_feature Core
 refresh_feature Interapp
 refresh_feature NetworkImage
 refresh_feature Overview
+refresh_feature MemoryMapping
 refresh_feature PagingScrollView
 refresh_feature Photos
 refresh_feature SnapshotRotation

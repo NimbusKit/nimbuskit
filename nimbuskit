@@ -34,6 +34,7 @@ features = [
 	"Interapp",
 	"NetworkImage",
 	"Overview",
+	"MemoryMapping",
 	"PagingScrollView",
 	"Photos",
 	"SnapshotRotation",
