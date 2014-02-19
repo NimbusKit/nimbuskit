@@ -57,7 +57,7 @@ def status():
 		match = re.search('nothing to commit', output)
 		if not match:
 			print "Status of " + feature
-			print result
+			print output
 		os.chdir(cwd)
 
 def commit():
