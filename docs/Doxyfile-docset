@@ -762,6 +762,7 @@ INPUT                  = \
                          features/interapp/src \
                          features/networkimage/src \
                          features/overview/src \
+                         features/markdown/src \
                          features/memorymapping/src \
                          features/pagingscrollview/src \
                          features/photos/src \

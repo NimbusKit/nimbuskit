@@ -174,6 +174,11 @@
 		66E8F67C18B29577005B65B0 /* UIResponder+NimbusCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8F66A18B29577005B65B0 /* UIResponder+NimbusCore.m */; };
 		66E8F68218B2958C005B65B0 /* NIActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8F67F18B2958C005B65B0 /* NIActions.m */; };
 		66E8F68718B295AA005B65B0 /* NISnapshotRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8F68618B295AA005B65B0 /* NISnapshotRotation.m */; };
+		66FE8A0418B4ED220052B4D6 /* MarkdownTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE89FF18B4ED220052B4D6 /* MarkdownTokenizer.m */; };
+		66FE8A0618B4ED220052B4D6 /* MarkdownTokens.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE8A0118B4ED220052B4D6 /* MarkdownTokens.m */; };
+		66FE8A0718B4ED220052B4D6 /* NSAttributedStringMarkdownParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 66FE8A0218B4ED220052B4D6 /* NSAttributedStringMarkdownParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66FE8A0818B4ED220052B4D6 /* NSAttributedStringMarkdownParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE8A0318B4ED220052B4D6 /* NSAttributedStringMarkdownParser.m */; };
+		66FE8A1818B4F04E0052B4D6 /* NimbusMarkdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 66FE8A1718B4F04E0052B4D6 /* NimbusMarkdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -183,6 +188,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 66E8F61718B294FA005B65B0;
 			remoteInfo = NimbusKit;
+		};
+		66FE8A1518B4EE910052B4D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66E8F61018B294FA005B65B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66FE8A1118B4EE1E0052B4D6;
+			remoteInfo = MarkdownGrammar;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -384,6 +396,18 @@
 		66E8F68518B295AA005B65B0 /* NISnapshotRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NISnapshotRotation.h; sourceTree = "<group>"; };
 		66E8F68618B295AA005B65B0 /* NISnapshotRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NISnapshotRotation.m; sourceTree = "<group>"; };
 		66E8F6C218B2972E005B65B0 /* NimbusKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NimbusKit.h; sourceTree = "<group>"; };
+		66FE89FF18B4ED220052B4D6 /* MarkdownTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkdownTokenizer.m; sourceTree = "<group>"; };
+		66FE8A0018B4ED220052B4D6 /* MarkdownTokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkdownTokens.h; sourceTree = "<group>"; };
+		66FE8A0118B4ED220052B4D6 /* MarkdownTokens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkdownTokens.m; sourceTree = "<group>"; };
+		66FE8A0218B4ED220052B4D6 /* NSAttributedStringMarkdownParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAttributedStringMarkdownParser.h; sourceTree = "<group>"; };
+		66FE8A0318B4ED220052B4D6 /* NSAttributedStringMarkdownParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAttributedStringMarkdownParser.m; sourceTree = "<group>"; };
+		66FE8A0A18B4ED4A0052B4D6 /* generate */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generate; sourceTree = "<group>"; };
+		66FE8A0B18B4ED4A0052B4D6 /* markdown.grammar */ = {isa = PBXFileReference; lastKnownFileType = text; path = markdown.grammar; sourceTree = "<group>"; };
+		66FE8A0C18B4ED4A0052B4D6 /* MarkdownTokenizerPrefix */ = {isa = PBXFileReference; lastKnownFileType = text; path = MarkdownTokenizerPrefix; sourceTree = "<group>"; };
+		66FE8A0D18B4ED4A0052B4D6 /* MarkdownTokens.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MarkdownTokens.cpp; sourceTree = "<group>"; };
+		66FE8A0E18B4ED4A0052B4D6 /* MarkdownTokens.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkdownTokens.h; sourceTree = "<group>"; };
+		66FE8A1018B4EDB20052B4D6 /* deps.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = deps.json; path = ../deps.json; sourceTree = "<group>"; };
+		66FE8A1718B4F04E0052B4D6 /* NimbusMarkdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NimbusMarkdown.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -674,8 +698,9 @@
 				66D91E2518B2B1F100D0A8A0 /* badge */,
 				66D91E3018B2B60900D0A8A0 /* collections */,
 				66E8F64118B2953B005B65B0 /* core */,
-				66D91EE518B4205800D0A8A0 /* memorymapping */,
 				66D91E4918B2B89E00D0A8A0 /* interapp */,
+				66FE89FE18B4ED060052B4D6 /* markdown */,
+				66D91EE518B4205800D0A8A0 /* memorymapping */,
 				66D91E5318B2BB9A00D0A8A0 /* networkimage */,
 				66D91E6B18B2F83900D0A8A0 /* overview */,
 				66D91EA318B2FB9300D0A8A0 /* pagingscrollview */,
@@ -813,6 +838,35 @@
 			name = lib;
 			sourceTree = "<group>";
 		};
+		66FE89FE18B4ED060052B4D6 /* markdown */ = {
+			isa = PBXGroup;
+			children = (
+				66FE8A0918B4ED3B0052B4D6 /* grammar */,
+				66FE8A1018B4EDB20052B4D6 /* deps.json */,
+				66FE8A1718B4F04E0052B4D6 /* NimbusMarkdown.h */,
+				66FE8A0218B4ED220052B4D6 /* NSAttributedStringMarkdownParser.h */,
+				66FE8A0318B4ED220052B4D6 /* NSAttributedStringMarkdownParser.m */,
+				66FE8A0018B4ED220052B4D6 /* MarkdownTokens.h */,
+				66FE8A0118B4ED220052B4D6 /* MarkdownTokens.m */,
+				66FE89FF18B4ED220052B4D6 /* MarkdownTokenizer.m */,
+			);
+			name = markdown;
+			path = ../../features/markdown/src;
+			sourceTree = "<group>";
+		};
+		66FE8A0918B4ED3B0052B4D6 /* grammar */ = {
+			isa = PBXGroup;
+			children = (
+				66FE8A0A18B4ED4A0052B4D6 /* generate */,
+				66FE8A0B18B4ED4A0052B4D6 /* markdown.grammar */,
+				66FE8A0C18B4ED4A0052B4D6 /* MarkdownTokenizerPrefix */,
+				66FE8A0E18B4ED4A0052B4D6 /* MarkdownTokens.h */,
+				66FE8A0D18B4ED4A0052B4D6 /* MarkdownTokens.cpp */,
+			);
+			name = grammar;
+			path = ../grammar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -904,6 +958,8 @@
 				66D91ED718B38F2B00D0A8A0 /* NITableViewController.h in Headers */,
 				66D91EA118B2FABA00D0A8A0 /* NimbusTextField.h in Headers */,
 				66D91EEB18B420D500D0A8A0 /* NimbusMemoryMapping.h in Headers */,
+				66FE8A0718B4ED220052B4D6 /* NSAttributedStringMarkdownParser.h in Headers */,
+				66FE8A1818B4F04E0052B4D6 /* NimbusMarkdown.h in Headers */,
 				66D91EE918B4206F00D0A8A0 /* fmemopen.h in Headers */,
 				66D91E7E18B2F85200D0A8A0 /* NIDeviceInfo.h in Headers */,
 				66D91E1B18B2AF4400D0A8A0 /* NIAttributedLabel.h in Headers */,
@@ -911,6 +967,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
+
+/* Begin PBXLegacyTarget section */
+		66FE8A1118B4EE1E0052B4D6 /* MarkdownGrammar */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 66FE8A1218B4EE1E0052B4D6 /* Build configuration list for PBXLegacyTarget "MarkdownGrammar" */;
+			buildPhases = (
+			);
+			buildToolPath = ./generate;
+			buildWorkingDirectory = /Users/featherless/workbench/ios/nimbuskit/features/markdown/grammar;
+			dependencies = (
+			);
+			name = MarkdownGrammar;
+			passBuildSettingsInEnvironment = 1;
+			productName = MarkdownGrammar;
+		};
+/* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
 		66E8F61718B294FA005B65B0 /* NimbusKit */ = {
@@ -926,6 +999,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				66FE8A1618B4EE910052B4D6 /* PBXTargetDependency */,
 			);
 			name = NimbusKit;
 			productName = NimbusKit;
@@ -973,6 +1047,7 @@
 			targets = (
 				66E8F61718B294FA005B65B0 /* NimbusKit */,
 				66E8F62718B294FA005B65B0 /* tests */,
+				66FE8A1118B4EE1E0052B4D6 /* MarkdownGrammar */,
 			);
 		};
 /* End PBXProject section */
@@ -1023,6 +1098,7 @@
 				66E8F66F18B29577005B65B0 /* NIError.m in Sources */,
 				66E8F68218B2958C005B65B0 /* NIActions.m in Sources */,
 				66E8F67C18B29577005B65B0 /* UIResponder+NimbusCore.m in Sources */,
+				66FE8A0618B4ED220052B4D6 /* MarkdownTokens.m in Sources */,
 				66CBA62418B29E12003BC379 /* NICellBackgrounds.m in Sources */,
 				66D91ED818B38F2B00D0A8A0 /* NITableViewController.m in Sources */,
 				66D91E8518B2F85200D0A8A0 /* NIOverviewGraphView.m in Sources */,
@@ -1032,6 +1108,7 @@
 				66D91EC918B2FDE200D0A8A0 /* NIPhotoScrollView.m in Sources */,
 				66CBA63318B29E12003BC379 /* NIRadioGroupController.m in Sources */,
 				66D91ECD18B2FDE200D0A8A0 /* NIPhotoScrubberView.m in Sources */,
+				66FE8A0418B4ED220052B4D6 /* MarkdownTokenizer.m in Sources */,
 				66D91E2A18B2B20500D0A8A0 /* NIBadgeView.m in Sources */,
 				66E8F67518B29577005B65B0 /* NINonRetainingCollections.m in Sources */,
 				66D91E3D18B2B61C00D0A8A0 /* NICollectionViewActions.m in Sources */,
@@ -1066,6 +1143,7 @@
 				66E8F67A18B29577005B65B0 /* NIState.m in Sources */,
 				66E8F67218B29577005B65B0 /* NIInMemoryCache.m in Sources */,
 				66E8F67818B29577005B65B0 /* NIRuntimeClassModifications.m in Sources */,
+				66FE8A0818B4ED220052B4D6 /* NSAttributedStringMarkdownParser.m in Sources */,
 				66E8F67718B29577005B65B0 /* NIPaths.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1100,6 +1178,11 @@
 			isa = PBXTargetDependency;
 			target = 66E8F61718B294FA005B65B0 /* NimbusKit */;
 			targetProxy = 66E8F62E18B294FA005B65B0 /* PBXContainerItemProxy */;
+		};
+		66FE8A1618B4EE910052B4D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66FE8A1118B4EE1E0052B4D6 /* MarkdownGrammar */;
+			targetProxy = 66FE8A1518B4EE910052B4D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1255,6 +1338,37 @@
 			};
 			name = Release;
 		};
+		66FE8A1318B4EE1E0052B4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		66FE8A1418B4EE1E0052B4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1284,6 +1398,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		66FE8A1218B4EE1E0052B4D6 /* Build configuration list for PBXLegacyTarget "MarkdownGrammar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FE8A1318B4EE1E0052B4D6 /* Debug */,
+				66FE8A1418B4EE1E0052B4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
