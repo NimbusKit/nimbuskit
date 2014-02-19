@@ -759,6 +759,7 @@ INPUT                  = \
                          features/badge/src \
                          features/collections/src \
                          features/core/src \
+                         features/decimalnumberfield/src \
                          features/interapp/src \
                          features/networkimage/src \
                          features/overview/src \

@@ -21,6 +21,7 @@
 #import <NimbusKit/NimbusBadge.h>
 #import <NimbusKit/NimbusCore.h>
 #import <NimbusKit/NimbusCollections.h>
+#import <NimbusKit/NimbusDecimalNumberField.h>
 #import <NimbusKit/NimbusInterapp.h>
 #import <NimbusKit/NimbusNetworkImage.h>
 #import <NimbusKit/NimbusOverview.h>
