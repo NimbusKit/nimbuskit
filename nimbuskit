@@ -63,7 +63,7 @@ def status():
 			print output
 		os.chdir(cwd)
 
-def commit():
+def commit(message):
 	cwd = os.getcwd()
 	for feature in features:
 		foldername=string.lower(feature)
@@ -77,7 +77,10 @@ def commit():
 		match = re.search('nothing to commit', output)
 		if not match:
 			os.system("git add .")
-			os.system("git commit -a")
+			if message:
+				os.system("git commit -a -m \"" + message + "\"")
+			else:
+				os.system("git commit -a")
 
 		os.chdir(cwd)
 
@@ -92,7 +95,10 @@ EXAMPLES:
 	git add .;git commit -a for all features:
     > %prog commit'''
 	parser = OptionParser(usage = usage)
-	
+
+	parser.add_option("-m", "--message", dest="message",
+	                  help="Commit all features with the given message")
+
 	parser.add_option("-v", "--verbose", dest="verbose",
 	                  help="Display verbose output",
 	                  action="store_true")
@@ -112,7 +118,7 @@ EXAMPLES:
 			status()
 			did_anything = True
 		elif command == 'commit':
-			commit()
+			commit(options.message)
 			did_anything = True
 
 	if not did_anything:
