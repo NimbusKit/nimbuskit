@@ -93,7 +93,7 @@ def push():
 		os.chdir(featurefolder)
 
 		logging.info("Pushing " + feature)
-    os.system("git push origin master")
+		os.system("git push origin master")
 
 		os.chdir(cwd)
 
