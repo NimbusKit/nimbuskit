@@ -84,6 +84,19 @@ def commit(message):
 
 		os.chdir(cwd)
 
+def push():
+	cwd = os.getcwd()
+	for feature in features:
+		foldername=string.lower(feature)
+		featurefolder="features/"+foldername
+
+		os.chdir(featurefolder)
+
+		logging.info("Pushing " + feature)
+    os.system("git push origin master")
+
+		os.chdir(cwd)
+
 def main():
 	usage = '''%prog [options] command(s)
 
@@ -92,8 +105,11 @@ EXAMPLES:
     Status of all features:
     > %prog status
 
-	git add .;git commit -a for all features:
-    > %prog commit'''
+    git add .;git commit -a for all features:
+    > %prog commit
+
+    git push origin master for all features:
+      > %prog push'''
 	parser = OptionParser(usage = usage)
 
 	parser.add_option("-m", "--message", dest="message",
@@ -119,6 +135,9 @@ EXAMPLES:
 			did_anything = True
 		elif command == 'commit':
 			commit(options.message)
+			did_anything = True
+		elif command == 'push':
+			push()
 			did_anything = True
 
 	if not did_anything:
