@@ -47,9 +47,9 @@ function normalizeDate(date) {
 }
 
 function fetchIssues(feature, element, type, typename) {
-  var labels = type+',['+feature+']';
-  element.attr('href', 'http://github.com/jverkoey/nimbus/issues?labels='+labels);
-  GitHubAPI.RepoIssues('jverkoey', 'nimbus', labels, function(json, status) {
+  var labels = type;
+  element.attr('href', 'http://github.com/nimbuskit/' + feature + '/issues?labels='+labels);
+  GitHubAPI.RepoIssues('nimbuskit', feature, labels, function(json, status) {
     if (json) {
       var text = json.length;
       if (json.length == 0) {
@@ -88,6 +88,6 @@ $(document).ready(function(){
     element.append(bugs).append(features);
 
     fetchIssues(element.attr('feature'), bugs, 'bug', 'bug');
-    fetchIssues(element.attr('feature'), features, 'feature', 'feature request');
+    fetchIssues(element.attr('feature'), features, 'enhancement', 'feature request');
   }
 });
