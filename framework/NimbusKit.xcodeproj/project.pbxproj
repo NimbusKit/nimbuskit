@@ -46,6 +46,7 @@
 		66A8310118B29B900017FBD9 /* NIStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A830F518B29B900017FBD9 /* NIStateTests.m */; };
 		66A8310218B29B900017FBD9 /* NIViewRecyclerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A830F618B29B900017FBD9 /* NIViewRecyclerTests.m */; };
 		66A8310318B29B900017FBD9 /* NSDate+UnitTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A830F818B29B900017FBD9 /* NSDate+UnitTesting.m */; };
+		66C1F1E118BB8DAE0017BD57 /* NIActionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C1F1E018BB8DAE0017BD57 /* NIActionsTests.m */; };
 		66CBA62318B29E12003BC379 /* NICellBackgrounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 66CBA60D18B29E12003BC379 /* NICellBackgrounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66CBA62418B29E12003BC379 /* NICellBackgrounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CBA60E18B29E12003BC379 /* NICellBackgrounds.m */; };
 		66CBA62518B29E12003BC379 /* NICellCatalog.h in Headers */ = {isa = PBXBuildFile; fileRef = 66CBA60F18B29E12003BC379 /* NICellCatalog.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -230,6 +231,7 @@
 		66A830F618B29B900017FBD9 /* NIViewRecyclerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIViewRecyclerTests.m; sourceTree = "<group>"; };
 		66A830F718B29B900017FBD9 /* NSDate+UnitTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+UnitTesting.h"; sourceTree = "<group>"; };
 		66A830F818B29B900017FBD9 /* NSDate+UnitTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+UnitTesting.m"; sourceTree = "<group>"; };
+		66C1F1E018BB8DAE0017BD57 /* NIActionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIActionsTests.m; sourceTree = "<group>"; };
 		66CBA60D18B29E12003BC379 /* NICellBackgrounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NICellBackgrounds.h; sourceTree = "<group>"; };
 		66CBA60E18B29E12003BC379 /* NICellBackgrounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NICellBackgrounds.m; sourceTree = "<group>"; };
 		66CBA60F18B29E12003BC379 /* NICellCatalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NICellCatalog.h; sourceTree = "<group>"; };
@@ -449,6 +451,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66C1F1DF18BB8D820017BD57 /* actions */ = {
+			isa = PBXGroup;
+			children = (
+				66C1F1E018BB8DAE0017BD57 /* NIActionsTests.m */,
+			);
+			name = actions;
+			path = actions/tests;
+			sourceTree = "<group>";
+		};
 		66CBA60C18B29DE2003BC379 /* tables */ = {
 			isa = PBXGroup;
 			children = (
@@ -736,6 +747,7 @@
 		66E8F63118B294FA005B65B0 /* tests */ = {
 			isa = PBXGroup;
 			children = (
+				66C1F1DF18BB8D820017BD57 /* actions */,
 				66E8F64218B2955F005B65B0 /* core */,
 				66FE8A2118B4F3DF0052B4D6 /* sockit */,
 				66CBA63918B2A0F7003BC379 /* tables */,
@@ -1222,6 +1234,7 @@
 				66CBA63D18B2A107003BC379 /* NICellFactoryTests.m in Sources */,
 				66CBA64818B2AF30003BC379 /* NIAttributedLabel.m in Sources */,
 				66A830FE18B29B900017FBD9 /* NINonEmptyCollectionTestingTests.m in Sources */,
+				66C1F1E118BB8DAE0017BD57 /* NIActionsTests.m in Sources */,
 				66A830FC18B29B900017FBD9 /* NIMemoryCacheTests.m in Sources */,
 				66A8310118B29B900017FBD9 /* NIStateTests.m in Sources */,
 				66A830FB18B29B900017FBD9 /* NIFoundationMethodsTests.m in Sources */,
@@ -1465,6 +1478,7 @@
 				66FE8A1418B4EE1E0052B4D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
