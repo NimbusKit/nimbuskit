@@ -272,11 +272,11 @@
 		6617C97E18B25A93006BABCE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				66D91EDA18B41DD000D0A8A0 /* NimbusKit.xcodeproj */,
 				66F8982818BD14D900CEFA43 /* MobileCoreServices.framework */,
 				66F8982618BD148C00CEFA43 /* CoreText.framework */,
 				66F8982418BD147A00CEFA43 /* Security.framework */,
 				66F8982218BD146600CEFA43 /* SystemConfiguration.framework */,
-				66D91EDA18B41DD000D0A8A0 /* NimbusKit.xcodeproj */,
 				6617C97F18B25A93006BABCE /* Foundation.framework */,
 				6617C98118B25A93006BABCE /* CoreGraphics.framework */,
 				6617C98318B25A93006BABCE /* UIKit.framework */,
