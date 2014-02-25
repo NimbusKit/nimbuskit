@@ -80,12 +80,10 @@
   // The following set of methods are all category methods added by the [attributedlabel] feature.
   // Each method has a final argument for specifying a range. If you don't specify a range then the
   // modification will be applied to the entire string.
-  [text setFont:font range:rangeOfHello];
-  [text setFont:font range:rangeOfWorld];
-  [text setUnderlineStyle:kCTUnderlineStyleSingle
-                 modifier:kCTUnderlinePatternSolid
-                    range:rangeOfHello];
-  [text setTextColor:[UIColor redColor] range:rangeOfHello];
+  [text nimbuskit_setFont:font range:rangeOfHello];
+  [text nimbuskit_setFont:font range:rangeOfWorld];
+  [text nimbuskit_setUnderlineStyle:kCTUnderlineStyleSingle modifier:kCTUnderlinePatternSolid range:rangeOfHello];
+  [text nimbuskit_setTextColor:[UIColor redColor] range:rangeOfHello];
 
   NIAttributedLabel* label = [[NIAttributedLabel alloc] initWithFrame:CGRectZero];
 
