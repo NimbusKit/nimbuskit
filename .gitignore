@@ -2,6 +2,7 @@
 features/
 templates/
 xcodetemplatespec/
+thirdparty/
 
 # OS X
 .DS_Store

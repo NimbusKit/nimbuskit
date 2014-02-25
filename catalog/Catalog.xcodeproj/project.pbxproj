@@ -14,6 +14,66 @@
 		6617C98C18B25A93006BABCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6617C98B18B25A93006BABCE /* main.m */; };
 		6617C99018B25A93006BABCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6617C98F18B25A93006BABCE /* AppDelegate.m */; };
 		6617C99218B25A93006BABCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6617C99118B25A93006BABCE /* Images.xcassets */; };
+		66BD12AE18BD127D004B7405 /* ActionsTableModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD125718BD127D004B7405 /* ActionsTableModelViewController.m */; };
+		66BD12AF18BD127D004B7405 /* AlignmentAttributedLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD125918BD127D004B7405 /* AlignmentAttributedLabelViewController.m */; };
+		66BD12B218BD127D004B7405 /* BasicInstantiationAttributedLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD125F18BD127D004B7405 /* BasicInstantiationAttributedLabelViewController.m */; };
+		66BD12B318BD127D004B7405 /* BasicInstantiationBadgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD126118BD127D004B7405 /* BasicInstantiationBadgeViewController.m */; };
+		66BD12B418BD127D004B7405 /* BasicInstantiationCollectionModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD126318BD127D004B7405 /* BasicInstantiationCollectionModelViewController.m */; };
+		66BD12B618BD127D004B7405 /* BasicInstantiationNetworkImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD126718BD127D004B7405 /* BasicInstantiationNetworkImageViewController.m */; };
+		66BD12B718BD127D004B7405 /* BasicInstantiationPagingScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD126918BD127D004B7405 /* BasicInstantiationPagingScrollViewController.m */; };
+		66BD12B818BD127D004B7405 /* BasicInstantiationTableModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD126B18BD127D004B7405 /* BasicInstantiationTableModelViewController.m */; };
+		66BD12B918BD127D004B7405 /* BlockCellsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD126D18BD127D004B7405 /* BlockCellsViewController.m */; };
+		66BD12BA18BD127D004B7405 /* CatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD126F18BD127D004B7405 /* CatalogViewController.m */; };
+		66BD12BB18BD127D004B7405 /* ColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD127118BD127D004B7405 /* ColorCell.m */; };
+		66BD12BC18BD127D004B7405 /* ContentModesNetworkImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD127318BD127D004B7405 /* ContentModesNetworkImageViewController.m */; };
+		66BD12BD18BD127D004B7405 /* CustomizingBadgesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD127518BD127D004B7405 /* CustomizingBadgesViewController.m */; };
+		66BD12BE18BD127D004B7405 /* CustomNibCollectionModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD127718BD127D004B7405 /* CustomNibCollectionModelViewController.m */; };
+		66BD12BF18BD127D004B7405 /* CustomTextAttributedLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD127918BD127D004B7405 /* CustomTextAttributedLabelViewController.m */; };
+		66BD12C018BD127D004B7405 /* CustomTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD127B18BD127D004B7405 /* CustomTextCell.m */; };
+		66BD12C118BD127D004B7405 /* DataTypesAttributedLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD127D18BD127D004B7405 /* DataTypesAttributedLabelViewController.m */; };
+		66BD12C218BD127D004B7405 /* ExtraActionsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD127F18BD127D004B7405 /* ExtraActionsWebViewController.m */; };
+		66BD12C318BD127D004B7405 /* FormCellCatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD128118BD127D004B7405 /* FormCellCatalogViewController.m */; };
+		66BD12C418BD127D004B7405 /* ImagesAttributedLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD128318BD127D004B7405 /* ImagesAttributedLabelViewController.m */; };
+		66BD12C518BD127D004B7405 /* IndexedTableModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD128518BD127D004B7405 /* IndexedTableModelViewController.m */; };
+		66BD12C618BD127D004B7405 /* InterappViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD128718BD127D004B7405 /* InterappViewController.m */; };
+		66BD12C718BD127D004B7405 /* InterfaceBuilderAttributedLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD128918BD127D004B7405 /* InterfaceBuilderAttributedLabelViewController.m */; };
+		66BD12C818BD127D004B7405 /* InterfaceBuilderBadgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD128B18BD127D004B7405 /* InterfaceBuilderBadgeViewController.m */; };
+		66BD12C918BD127D004B7405 /* LinksAttributedLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD128D18BD127D004B7405 /* LinksAttributedLabelViewController.m */; };
+		66BD12CA18BD127D004B7405 /* LongTapAttributedLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD128F18BD127D004B7405 /* LongTapAttributedLabelViewController.m */; };
+		66BD12CB18BD127D004B7405 /* ModalRadioGroupTableModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD129118BD127D004B7405 /* ModalRadioGroupTableModelViewController.m */; };
+		66BD12CE18BD127D004B7405 /* MutableTableModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD129718BD127D004B7405 /* MutableTableModelViewController.m */; };
+		66BD12CF18BD127D004B7405 /* NestedRadioGroupTableModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD129918BD127D004B7405 /* NestedRadioGroupTableModelViewController.m */; };
+		66BD12D018BD127D004B7405 /* NetworkBlockCellsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD129B18BD127D004B7405 /* NetworkBlockCellsViewController.m */; };
+		66BD12D118BD127D004B7405 /* NibCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD129D18BD127D004B7405 /* NibCellObject.m */; };
+		66BD12D218BD127D004B7405 /* NibCollectionModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD129F18BD127D004B7405 /* NibCollectionModelViewController.m */; };
+		66BD12D318BD127D004B7405 /* PerformanceAttributedLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD12A118BD127D004B7405 /* PerformanceAttributedLabelViewController.m */; };
+		66BD12D418BD127D004B7405 /* RadioGroupTableModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD12A318BD127D004B7405 /* RadioGroupTableModelViewController.m */; };
+		66BD12D618BD127D004B7405 /* SamplePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD12A718BD127D004B7405 /* SamplePageView.m */; };
+		66BD12D718BD127D004B7405 /* SectionedTableModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD12A918BD127D004B7405 /* SectionedTableModelViewController.m */; };
+		66BD12D818BD127D004B7405 /* SnapshotRotationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD12AB18BD127D004B7405 /* SnapshotRotationTableViewController.m */; };
+		66BD12D918BD127D004B7405 /* VerticalPagingScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD12AD18BD127D004B7405 /* VerticalPagingScrollViewController.m */; };
+		66BD12EE18BD13AF004B7405 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD12DC18BD13AF004B7405 /* AFHTTPRequestOperation.m */; };
+		66BD12EF18BD13AF004B7405 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD12DE18BD13AF004B7405 /* AFHTTPRequestOperationManager.m */; };
+		66BD12F018BD13AF004B7405 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD12E018BD13AF004B7405 /* AFHTTPSessionManager.m */; };
+		66BD12F118BD13AF004B7405 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD12E318BD13AF004B7405 /* AFNetworkReachabilityManager.m */; };
+		66BD12F218BD13AF004B7405 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD12E518BD13AF004B7405 /* AFSecurityPolicy.m */; };
+		66BD12F318BD13AF004B7405 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD12E718BD13AF004B7405 /* AFURLConnectionOperation.m */; };
+		66BD12F418BD13AF004B7405 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD12E918BD13AF004B7405 /* AFURLRequestSerialization.m */; };
+		66BD12F518BD13AF004B7405 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD12EB18BD13AF004B7405 /* AFURLResponseSerialization.m */; };
+		66BD12F618BD13AF004B7405 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD12ED18BD13AF004B7405 /* AFURLSessionManager.m */; };
+		66F8982118BD145800CEFA43 /* libNimbusKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D91EE018B41DD000D0A8A0 /* libNimbusKit.a */; };
+		66F8982318BD146600CEFA43 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F8982218BD146600CEFA43 /* SystemConfiguration.framework */; };
+		66F8982918BD14D900CEFA43 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F8982818BD14D900CEFA43 /* MobileCoreServices.framework */; };
+		66F8983D18BD1A6E00CEFA43 /* AlignmentAttributedLabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66F8983818BD1A6E00CEFA43 /* AlignmentAttributedLabelViewController.xib */; };
+		66F8983E18BD1A6E00CEFA43 /* ApplicationBadges.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66F8983918BD1A6E00CEFA43 /* ApplicationBadges.xib */; };
+		66F8983F18BD1A6E00CEFA43 /* AttributedLabelMashup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66F8983A18BD1A6E00CEFA43 /* AttributedLabelMashup.xib */; };
+		66F8984018BD1A6E00CEFA43 /* CustomTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66F8983B18BD1A6E00CEFA43 /* CustomTextCell.xib */; };
+		66F8984118BD1A6E00CEFA43 /* NimbusKitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66F8983C18BD1A6E00CEFA43 /* NimbusKitCell.xib */; };
+		66F8984618BD1ABC00CEFA43 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F8984218BD1ABC00CEFA43 /* circle.png */; };
+		66F8984718BD1ABC00CEFA43 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F8984318BD1ABC00CEFA43 /* Icon.png */; };
+		66F8984818BD1ABC00CEFA43 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F8984418BD1ABC00CEFA43 /* Icon@2x.png */; };
+		66F8984918BD1ABC00CEFA43 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F8984518BD1ABC00CEFA43 /* star.png */; };
+		66F8985018BD1C4200CEFA43 /* NimbusWebController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 66F8984F18BD1C4200CEFA43 /* NimbusWebController.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,9 +117,118 @@
 		6671560E18B27316007FF94F /* NOTICE */ = {isa = PBXFileReference; lastKnownFileType = text; name = NOTICE; path = ../NOTICE; sourceTree = "<group>"; };
 		6671564B18B279A2007FF94F /* Doxyfile */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; name = Doxyfile; path = ../docs/Doxyfile; sourceTree = "<group>"; };
 		6671564C18B279A2007FF94F /* Doxyfile-docset */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; name = "Doxyfile-docset"; path = "../docs/Doxyfile-docset"; sourceTree = "<group>"; };
+		66BD125618BD127D004B7405 /* ActionsTableModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActionsTableModelViewController.h; path = src/ActionsTableModelViewController.h; sourceTree = "<group>"; };
+		66BD125718BD127D004B7405 /* ActionsTableModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActionsTableModelViewController.m; path = src/ActionsTableModelViewController.m; sourceTree = "<group>"; };
+		66BD125818BD127D004B7405 /* AlignmentAttributedLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlignmentAttributedLabelViewController.h; path = src/AlignmentAttributedLabelViewController.h; sourceTree = "<group>"; };
+		66BD125918BD127D004B7405 /* AlignmentAttributedLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlignmentAttributedLabelViewController.m; path = src/AlignmentAttributedLabelViewController.m; sourceTree = "<group>"; };
+		66BD125E18BD127D004B7405 /* BasicInstantiationAttributedLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicInstantiationAttributedLabelViewController.h; path = src/BasicInstantiationAttributedLabelViewController.h; sourceTree = "<group>"; };
+		66BD125F18BD127D004B7405 /* BasicInstantiationAttributedLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicInstantiationAttributedLabelViewController.m; path = src/BasicInstantiationAttributedLabelViewController.m; sourceTree = "<group>"; };
+		66BD126018BD127D004B7405 /* BasicInstantiationBadgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicInstantiationBadgeViewController.h; path = src/BasicInstantiationBadgeViewController.h; sourceTree = "<group>"; };
+		66BD126118BD127D004B7405 /* BasicInstantiationBadgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicInstantiationBadgeViewController.m; path = src/BasicInstantiationBadgeViewController.m; sourceTree = "<group>"; };
+		66BD126218BD127D004B7405 /* BasicInstantiationCollectionModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicInstantiationCollectionModelViewController.h; path = src/BasicInstantiationCollectionModelViewController.h; sourceTree = "<group>"; };
+		66BD126318BD127D004B7405 /* BasicInstantiationCollectionModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicInstantiationCollectionModelViewController.m; path = src/BasicInstantiationCollectionModelViewController.m; sourceTree = "<group>"; };
+		66BD126618BD127D004B7405 /* BasicInstantiationNetworkImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicInstantiationNetworkImageViewController.h; path = src/BasicInstantiationNetworkImageViewController.h; sourceTree = "<group>"; };
+		66BD126718BD127D004B7405 /* BasicInstantiationNetworkImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicInstantiationNetworkImageViewController.m; path = src/BasicInstantiationNetworkImageViewController.m; sourceTree = "<group>"; };
+		66BD126818BD127D004B7405 /* BasicInstantiationPagingScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicInstantiationPagingScrollViewController.h; path = src/BasicInstantiationPagingScrollViewController.h; sourceTree = "<group>"; };
+		66BD126918BD127D004B7405 /* BasicInstantiationPagingScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicInstantiationPagingScrollViewController.m; path = src/BasicInstantiationPagingScrollViewController.m; sourceTree = "<group>"; };
+		66BD126A18BD127D004B7405 /* BasicInstantiationTableModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicInstantiationTableModelViewController.h; path = src/BasicInstantiationTableModelViewController.h; sourceTree = "<group>"; };
+		66BD126B18BD127D004B7405 /* BasicInstantiationTableModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicInstantiationTableModelViewController.m; path = src/BasicInstantiationTableModelViewController.m; sourceTree = "<group>"; };
+		66BD126C18BD127D004B7405 /* BlockCellsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlockCellsViewController.h; path = src/BlockCellsViewController.h; sourceTree = "<group>"; };
+		66BD126D18BD127D004B7405 /* BlockCellsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlockCellsViewController.m; path = src/BlockCellsViewController.m; sourceTree = "<group>"; };
+		66BD126E18BD127D004B7405 /* CatalogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CatalogViewController.h; path = src/CatalogViewController.h; sourceTree = "<group>"; };
+		66BD126F18BD127D004B7405 /* CatalogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CatalogViewController.m; path = src/CatalogViewController.m; sourceTree = "<group>"; };
+		66BD127018BD127D004B7405 /* ColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorCell.h; path = src/ColorCell.h; sourceTree = "<group>"; };
+		66BD127118BD127D004B7405 /* ColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorCell.m; path = src/ColorCell.m; sourceTree = "<group>"; };
+		66BD127218BD127D004B7405 /* ContentModesNetworkImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContentModesNetworkImageViewController.h; path = src/ContentModesNetworkImageViewController.h; sourceTree = "<group>"; };
+		66BD127318BD127D004B7405 /* ContentModesNetworkImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContentModesNetworkImageViewController.m; path = src/ContentModesNetworkImageViewController.m; sourceTree = "<group>"; };
+		66BD127418BD127D004B7405 /* CustomizingBadgesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomizingBadgesViewController.h; path = src/CustomizingBadgesViewController.h; sourceTree = "<group>"; };
+		66BD127518BD127D004B7405 /* CustomizingBadgesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomizingBadgesViewController.m; path = src/CustomizingBadgesViewController.m; sourceTree = "<group>"; };
+		66BD127618BD127D004B7405 /* CustomNibCollectionModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomNibCollectionModelViewController.h; path = src/CustomNibCollectionModelViewController.h; sourceTree = "<group>"; };
+		66BD127718BD127D004B7405 /* CustomNibCollectionModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomNibCollectionModelViewController.m; path = src/CustomNibCollectionModelViewController.m; sourceTree = "<group>"; };
+		66BD127818BD127D004B7405 /* CustomTextAttributedLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTextAttributedLabelViewController.h; path = src/CustomTextAttributedLabelViewController.h; sourceTree = "<group>"; };
+		66BD127918BD127D004B7405 /* CustomTextAttributedLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTextAttributedLabelViewController.m; path = src/CustomTextAttributedLabelViewController.m; sourceTree = "<group>"; };
+		66BD127A18BD127D004B7405 /* CustomTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTextCell.h; path = src/CustomTextCell.h; sourceTree = "<group>"; };
+		66BD127B18BD127D004B7405 /* CustomTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTextCell.m; path = src/CustomTextCell.m; sourceTree = "<group>"; };
+		66BD127C18BD127D004B7405 /* DataTypesAttributedLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataTypesAttributedLabelViewController.h; path = src/DataTypesAttributedLabelViewController.h; sourceTree = "<group>"; };
+		66BD127D18BD127D004B7405 /* DataTypesAttributedLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataTypesAttributedLabelViewController.m; path = src/DataTypesAttributedLabelViewController.m; sourceTree = "<group>"; };
+		66BD127E18BD127D004B7405 /* ExtraActionsWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExtraActionsWebViewController.h; path = src/ExtraActionsWebViewController.h; sourceTree = "<group>"; };
+		66BD127F18BD127D004B7405 /* ExtraActionsWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtraActionsWebViewController.m; path = src/ExtraActionsWebViewController.m; sourceTree = "<group>"; };
+		66BD128018BD127D004B7405 /* FormCellCatalogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FormCellCatalogViewController.h; path = src/FormCellCatalogViewController.h; sourceTree = "<group>"; };
+		66BD128118BD127D004B7405 /* FormCellCatalogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FormCellCatalogViewController.m; path = src/FormCellCatalogViewController.m; sourceTree = "<group>"; };
+		66BD128218BD127D004B7405 /* ImagesAttributedLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImagesAttributedLabelViewController.h; path = src/ImagesAttributedLabelViewController.h; sourceTree = "<group>"; };
+		66BD128318BD127D004B7405 /* ImagesAttributedLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImagesAttributedLabelViewController.m; path = src/ImagesAttributedLabelViewController.m; sourceTree = "<group>"; };
+		66BD128418BD127D004B7405 /* IndexedTableModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IndexedTableModelViewController.h; path = src/IndexedTableModelViewController.h; sourceTree = "<group>"; };
+		66BD128518BD127D004B7405 /* IndexedTableModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IndexedTableModelViewController.m; path = src/IndexedTableModelViewController.m; sourceTree = "<group>"; };
+		66BD128618BD127D004B7405 /* InterappViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InterappViewController.h; path = src/InterappViewController.h; sourceTree = "<group>"; };
+		66BD128718BD127D004B7405 /* InterappViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InterappViewController.m; path = src/InterappViewController.m; sourceTree = "<group>"; };
+		66BD128818BD127D004B7405 /* InterfaceBuilderAttributedLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InterfaceBuilderAttributedLabelViewController.h; path = src/InterfaceBuilderAttributedLabelViewController.h; sourceTree = "<group>"; };
+		66BD128918BD127D004B7405 /* InterfaceBuilderAttributedLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InterfaceBuilderAttributedLabelViewController.m; path = src/InterfaceBuilderAttributedLabelViewController.m; sourceTree = "<group>"; };
+		66BD128A18BD127D004B7405 /* InterfaceBuilderBadgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InterfaceBuilderBadgeViewController.h; path = src/InterfaceBuilderBadgeViewController.h; sourceTree = "<group>"; };
+		66BD128B18BD127D004B7405 /* InterfaceBuilderBadgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InterfaceBuilderBadgeViewController.m; path = src/InterfaceBuilderBadgeViewController.m; sourceTree = "<group>"; };
+		66BD128C18BD127D004B7405 /* LinksAttributedLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinksAttributedLabelViewController.h; path = src/LinksAttributedLabelViewController.h; sourceTree = "<group>"; };
+		66BD128D18BD127D004B7405 /* LinksAttributedLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinksAttributedLabelViewController.m; path = src/LinksAttributedLabelViewController.m; sourceTree = "<group>"; };
+		66BD128E18BD127D004B7405 /* LongTapAttributedLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LongTapAttributedLabelViewController.h; path = src/LongTapAttributedLabelViewController.h; sourceTree = "<group>"; };
+		66BD128F18BD127D004B7405 /* LongTapAttributedLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LongTapAttributedLabelViewController.m; path = src/LongTapAttributedLabelViewController.m; sourceTree = "<group>"; };
+		66BD129018BD127D004B7405 /* ModalRadioGroupTableModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModalRadioGroupTableModelViewController.h; path = src/ModalRadioGroupTableModelViewController.h; sourceTree = "<group>"; };
+		66BD129118BD127D004B7405 /* ModalRadioGroupTableModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModalRadioGroupTableModelViewController.m; path = src/ModalRadioGroupTableModelViewController.m; sourceTree = "<group>"; };
+		66BD129618BD127D004B7405 /* MutableTableModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MutableTableModelViewController.h; path = src/MutableTableModelViewController.h; sourceTree = "<group>"; };
+		66BD129718BD127D004B7405 /* MutableTableModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MutableTableModelViewController.m; path = src/MutableTableModelViewController.m; sourceTree = "<group>"; };
+		66BD129818BD127D004B7405 /* NestedRadioGroupTableModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NestedRadioGroupTableModelViewController.h; path = src/NestedRadioGroupTableModelViewController.h; sourceTree = "<group>"; };
+		66BD129918BD127D004B7405 /* NestedRadioGroupTableModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NestedRadioGroupTableModelViewController.m; path = src/NestedRadioGroupTableModelViewController.m; sourceTree = "<group>"; };
+		66BD129A18BD127D004B7405 /* NetworkBlockCellsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkBlockCellsViewController.h; path = src/NetworkBlockCellsViewController.h; sourceTree = "<group>"; };
+		66BD129B18BD127D004B7405 /* NetworkBlockCellsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkBlockCellsViewController.m; path = src/NetworkBlockCellsViewController.m; sourceTree = "<group>"; };
+		66BD129C18BD127D004B7405 /* NibCellObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NibCellObject.h; path = src/NibCellObject.h; sourceTree = "<group>"; };
+		66BD129D18BD127D004B7405 /* NibCellObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NibCellObject.m; path = src/NibCellObject.m; sourceTree = "<group>"; };
+		66BD129E18BD127D004B7405 /* NibCollectionModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NibCollectionModelViewController.h; path = src/NibCollectionModelViewController.h; sourceTree = "<group>"; };
+		66BD129F18BD127D004B7405 /* NibCollectionModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NibCollectionModelViewController.m; path = src/NibCollectionModelViewController.m; sourceTree = "<group>"; };
+		66BD12A018BD127D004B7405 /* PerformanceAttributedLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PerformanceAttributedLabelViewController.h; path = src/PerformanceAttributedLabelViewController.h; sourceTree = "<group>"; };
+		66BD12A118BD127D004B7405 /* PerformanceAttributedLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PerformanceAttributedLabelViewController.m; path = src/PerformanceAttributedLabelViewController.m; sourceTree = "<group>"; };
+		66BD12A218BD127D004B7405 /* RadioGroupTableModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RadioGroupTableModelViewController.h; path = src/RadioGroupTableModelViewController.h; sourceTree = "<group>"; };
+		66BD12A318BD127D004B7405 /* RadioGroupTableModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RadioGroupTableModelViewController.m; path = src/RadioGroupTableModelViewController.m; sourceTree = "<group>"; };
+		66BD12A618BD127D004B7405 /* SamplePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SamplePageView.h; path = src/SamplePageView.h; sourceTree = "<group>"; };
+		66BD12A718BD127D004B7405 /* SamplePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SamplePageView.m; path = src/SamplePageView.m; sourceTree = "<group>"; };
+		66BD12A818BD127D004B7405 /* SectionedTableModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SectionedTableModelViewController.h; path = src/SectionedTableModelViewController.h; sourceTree = "<group>"; };
+		66BD12A918BD127D004B7405 /* SectionedTableModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SectionedTableModelViewController.m; path = src/SectionedTableModelViewController.m; sourceTree = "<group>"; };
+		66BD12AA18BD127D004B7405 /* SnapshotRotationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnapshotRotationTableViewController.h; path = src/SnapshotRotationTableViewController.h; sourceTree = "<group>"; };
+		66BD12AB18BD127D004B7405 /* SnapshotRotationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SnapshotRotationTableViewController.m; path = src/SnapshotRotationTableViewController.m; sourceTree = "<group>"; };
+		66BD12AC18BD127D004B7405 /* VerticalPagingScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VerticalPagingScrollViewController.h; path = src/VerticalPagingScrollViewController.h; sourceTree = "<group>"; };
+		66BD12AD18BD127D004B7405 /* VerticalPagingScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VerticalPagingScrollViewController.m; path = src/VerticalPagingScrollViewController.m; sourceTree = "<group>"; };
+		66BD12DB18BD13AF004B7405 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		66BD12DC18BD13AF004B7405 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		66BD12DD18BD13AF004B7405 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		66BD12DE18BD13AF004B7405 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		66BD12DF18BD13AF004B7405 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		66BD12E018BD13AF004B7405 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		66BD12E118BD13AF004B7405 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		66BD12E218BD13AF004B7405 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		66BD12E318BD13AF004B7405 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		66BD12E418BD13AF004B7405 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		66BD12E518BD13AF004B7405 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		66BD12E618BD13AF004B7405 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		66BD12E718BD13AF004B7405 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		66BD12E818BD13AF004B7405 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		66BD12E918BD13AF004B7405 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		66BD12EA18BD13AF004B7405 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		66BD12EB18BD13AF004B7405 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		66BD12EC18BD13AF004B7405 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		66BD12ED18BD13AF004B7405 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		66D91E2F18B2B32400D0A8A0 /* refresh_features */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = refresh_features; path = ../refresh_features; sourceTree = "<group>"; };
 		66D91EDA18B41DD000D0A8A0 /* NimbusKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NimbusKit.xcodeproj; path = ../framework/NimbusKit.xcodeproj; sourceTree = "<group>"; };
 		66D91EED18B4D04000D0A8A0 /* nimbuskit */ = {isa = PBXFileReference; explicitFileType = text.script.python; name = nimbuskit; path = ../nimbuskit; sourceTree = "<group>"; };
+		66F8982218BD146600CEFA43 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		66F8982418BD147A00CEFA43 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		66F8982618BD148C00CEFA43 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		66F8982818BD14D900CEFA43 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		66F8983818BD1A6E00CEFA43 /* AlignmentAttributedLabelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AlignmentAttributedLabelViewController.xib; path = xibs/AlignmentAttributedLabelViewController.xib; sourceTree = "<group>"; };
+		66F8983918BD1A6E00CEFA43 /* ApplicationBadges.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ApplicationBadges.xib; path = xibs/ApplicationBadges.xib; sourceTree = "<group>"; };
+		66F8983A18BD1A6E00CEFA43 /* AttributedLabelMashup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AttributedLabelMashup.xib; path = xibs/AttributedLabelMashup.xib; sourceTree = "<group>"; };
+		66F8983B18BD1A6E00CEFA43 /* CustomTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomTextCell.xib; path = xibs/CustomTextCell.xib; sourceTree = "<group>"; };
+		66F8983C18BD1A6E00CEFA43 /* NimbusKitCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NimbusKitCell.xib; path = xibs/NimbusKitCell.xib; sourceTree = "<group>"; };
+		66F8984218BD1ABC00CEFA43 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle.png; path = images/circle.png; sourceTree = "<group>"; };
+		66F8984318BD1ABC00CEFA43 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = images/Icon.png; sourceTree = "<group>"; };
+		66F8984418BD1ABC00CEFA43 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "images/Icon@2x.png"; sourceTree = "<group>"; };
+		66F8984518BD1ABC00CEFA43 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = images/star.png; sourceTree = "<group>"; };
+		66F8984F18BD1C4200CEFA43 /* NimbusWebController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = NimbusWebController.bundle; path = ../../features/webcontroller/resources/NimbusWebController.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +236,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66F8982918BD14D900CEFA43 /* MobileCoreServices.framework in Frameworks */,
+				66F8982318BD146600CEFA43 /* SystemConfiguration.framework in Frameworks */,
+				66F8982118BD145800CEFA43 /* libNimbusKit.a in Frameworks */,
 				6617C98218B25A93006BABCE /* CoreGraphics.framework in Frameworks */,
 				6617C98418B25A93006BABCE /* UIKit.framework in Frameworks */,
 				6617C98018B25A93006BABCE /* Foundation.framework in Frameworks */,
@@ -81,7 +253,8 @@
 			children = (
 				6671560D18B27316007FF94F /* LICENSE */,
 				6671560E18B27316007FF94F /* NOTICE */,
-				6617C98518B25A93006BABCE /* Catalog */,
+				6617C98518B25A93006BABCE /* src */,
+				66BD12DA18BD1396004B7405 /* AFNetworking */,
 				6671564D18B279A4007FF94F /* docs */,
 				6617C97E18B25A93006BABCE /* Frameworks */,
 				6617C97D18B25A93006BABCE /* Products */,
@@ -99,6 +272,10 @@
 		6617C97E18B25A93006BABCE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				66F8982818BD14D900CEFA43 /* MobileCoreServices.framework */,
+				66F8982618BD148C00CEFA43 /* CoreText.framework */,
+				66F8982418BD147A00CEFA43 /* Security.framework */,
+				66F8982218BD146600CEFA43 /* SystemConfiguration.framework */,
 				66D91EDA18B41DD000D0A8A0 /* NimbusKit.xcodeproj */,
 				6617C97F18B25A93006BABCE /* Foundation.framework */,
 				6617C98118B25A93006BABCE /* CoreGraphics.framework */,
@@ -108,14 +285,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6617C98518B25A93006BABCE /* Catalog */ = {
+		6617C98518B25A93006BABCE /* src */ = {
 			isa = PBXGroup;
 			children = (
+				66BD125318BD1275004B7405 /* Catalog */,
 				6617C98E18B25A93006BABCE /* AppDelegate.h */,
 				6617C98F18B25A93006BABCE /* AppDelegate.m */,
 				6617C99118B25A93006BABCE /* Images.xcassets */,
 				6617C98618B25A93006BABCE /* Supporting Files */,
 			);
+			name = src;
 			path = Catalog;
 			sourceTree = "<group>";
 		};
@@ -141,6 +320,50 @@
 			name = docs;
 			sourceTree = "<group>";
 		};
+		66BD125318BD1275004B7405 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				66BD126E18BD127D004B7405 /* CatalogViewController.h */,
+				66BD126F18BD127D004B7405 /* CatalogViewController.m */,
+				66F8982A18BD174B00CEFA43 /* Attributed Label */,
+				66F8982B18BD190B00CEFA43 /* Badge */,
+				66F8982C18BD193A00CEFA43 /* Collections */,
+				66F8984A18BD1B7E00CEFA43 /* Interapp */,
+				66F8984B18BD1B9800CEFA43 /* Network Image */,
+				66F8984C18BD1BAE00CEFA43 /* Paging Scroll View */,
+				66F8984D18BD1BCE00CEFA43 /* Tables */,
+				66F8984E18BD1C2500CEFA43 /* Web Controller */,
+			);
+			name = Catalog;
+			sourceTree = "<group>";
+		};
+		66BD12DA18BD1396004B7405 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				66BD12DB18BD13AF004B7405 /* AFHTTPRequestOperation.h */,
+				66BD12DC18BD13AF004B7405 /* AFHTTPRequestOperation.m */,
+				66BD12DD18BD13AF004B7405 /* AFHTTPRequestOperationManager.h */,
+				66BD12DE18BD13AF004B7405 /* AFHTTPRequestOperationManager.m */,
+				66BD12DF18BD13AF004B7405 /* AFHTTPSessionManager.h */,
+				66BD12E018BD13AF004B7405 /* AFHTTPSessionManager.m */,
+				66BD12E118BD13AF004B7405 /* AFNetworking.h */,
+				66BD12E218BD13AF004B7405 /* AFNetworkReachabilityManager.h */,
+				66BD12E318BD13AF004B7405 /* AFNetworkReachabilityManager.m */,
+				66BD12E418BD13AF004B7405 /* AFSecurityPolicy.h */,
+				66BD12E518BD13AF004B7405 /* AFSecurityPolicy.m */,
+				66BD12E618BD13AF004B7405 /* AFURLConnectionOperation.h */,
+				66BD12E718BD13AF004B7405 /* AFURLConnectionOperation.m */,
+				66BD12E818BD13AF004B7405 /* AFURLRequestSerialization.h */,
+				66BD12E918BD13AF004B7405 /* AFURLRequestSerialization.m */,
+				66BD12EA18BD13AF004B7405 /* AFURLResponseSerialization.h */,
+				66BD12EB18BD13AF004B7405 /* AFURLResponseSerialization.m */,
+				66BD12EC18BD13AF004B7405 /* AFURLSessionManager.h */,
+				66BD12ED18BD13AF004B7405 /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			path = ../thirdparty/AFNetworking/AFNetworking;
+			sourceTree = "<group>";
+		};
 		66D91EDB18B41DD000D0A8A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +371,154 @@
 				66D91EE218B41DD000D0A8A0 /* tests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		66F8982A18BD174B00CEFA43 /* Attributed Label */ = {
+			isa = PBXGroup;
+			children = (
+				66BD125E18BD127D004B7405 /* BasicInstantiationAttributedLabelViewController.h */,
+				66BD125F18BD127D004B7405 /* BasicInstantiationAttributedLabelViewController.m */,
+				66BD127818BD127D004B7405 /* CustomTextAttributedLabelViewController.h */,
+				66BD127918BD127D004B7405 /* CustomTextAttributedLabelViewController.m */,
+				66BD128C18BD127D004B7405 /* LinksAttributedLabelViewController.h */,
+				66BD128D18BD127D004B7405 /* LinksAttributedLabelViewController.m */,
+				66BD127C18BD127D004B7405 /* DataTypesAttributedLabelViewController.h */,
+				66BD127D18BD127D004B7405 /* DataTypesAttributedLabelViewController.m */,
+				66BD128218BD127D004B7405 /* ImagesAttributedLabelViewController.h */,
+				66BD128318BD127D004B7405 /* ImagesAttributedLabelViewController.m */,
+				66F8984218BD1ABC00CEFA43 /* circle.png */,
+				66F8984318BD1ABC00CEFA43 /* Icon.png */,
+				66F8984418BD1ABC00CEFA43 /* Icon@2x.png */,
+				66F8984518BD1ABC00CEFA43 /* star.png */,
+				66BD12A018BD127D004B7405 /* PerformanceAttributedLabelViewController.h */,
+				66BD12A118BD127D004B7405 /* PerformanceAttributedLabelViewController.m */,
+				66BD128E18BD127D004B7405 /* LongTapAttributedLabelViewController.h */,
+				66BD128F18BD127D004B7405 /* LongTapAttributedLabelViewController.m */,
+				66BD128818BD127D004B7405 /* InterfaceBuilderAttributedLabelViewController.h */,
+				66BD128918BD127D004B7405 /* InterfaceBuilderAttributedLabelViewController.m */,
+				66F8983A18BD1A6E00CEFA43 /* AttributedLabelMashup.xib */,
+				66BD125818BD127D004B7405 /* AlignmentAttributedLabelViewController.h */,
+				66BD125918BD127D004B7405 /* AlignmentAttributedLabelViewController.m */,
+				66F8983818BD1A6E00CEFA43 /* AlignmentAttributedLabelViewController.xib */,
+			);
+			name = "Attributed Label";
+			sourceTree = "<group>";
+		};
+		66F8982B18BD190B00CEFA43 /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				66BD128A18BD127D004B7405 /* InterfaceBuilderBadgeViewController.h */,
+				66BD126018BD127D004B7405 /* BasicInstantiationBadgeViewController.h */,
+				66BD126118BD127D004B7405 /* BasicInstantiationBadgeViewController.m */,
+				66BD127418BD127D004B7405 /* CustomizingBadgesViewController.h */,
+				66BD127518BD127D004B7405 /* CustomizingBadgesViewController.m */,
+				66BD128B18BD127D004B7405 /* InterfaceBuilderBadgeViewController.m */,
+				66F8983918BD1A6E00CEFA43 /* ApplicationBadges.xib */,
+			);
+			name = Badge;
+			sourceTree = "<group>";
+		};
+		66F8982C18BD193A00CEFA43 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				66F8982D18BD195200CEFA43 /* Cells */,
+				66BD126218BD127D004B7405 /* BasicInstantiationCollectionModelViewController.h */,
+				66BD126318BD127D004B7405 /* BasicInstantiationCollectionModelViewController.m */,
+				66BD129E18BD127D004B7405 /* NibCollectionModelViewController.h */,
+				66BD129F18BD127D004B7405 /* NibCollectionModelViewController.m */,
+				66BD127618BD127D004B7405 /* CustomNibCollectionModelViewController.h */,
+				66BD127718BD127D004B7405 /* CustomNibCollectionModelViewController.m */,
+			);
+			name = Collections;
+			sourceTree = "<group>";
+		};
+		66F8982D18BD195200CEFA43 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				66BD127018BD127D004B7405 /* ColorCell.h */,
+				66BD127118BD127D004B7405 /* ColorCell.m */,
+				66BD129C18BD127D004B7405 /* NibCellObject.h */,
+				66BD129D18BD127D004B7405 /* NibCellObject.m */,
+				66BD127A18BD127D004B7405 /* CustomTextCell.h */,
+				66BD127B18BD127D004B7405 /* CustomTextCell.m */,
+				66F8983B18BD1A6E00CEFA43 /* CustomTextCell.xib */,
+				66F8983C18BD1A6E00CEFA43 /* NimbusKitCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		66F8984A18BD1B7E00CEFA43 /* Interapp */ = {
+			isa = PBXGroup;
+			children = (
+				66BD128618BD127D004B7405 /* InterappViewController.h */,
+				66BD128718BD127D004B7405 /* InterappViewController.m */,
+			);
+			name = Interapp;
+			sourceTree = "<group>";
+		};
+		66F8984B18BD1B9800CEFA43 /* Network Image */ = {
+			isa = PBXGroup;
+			children = (
+				66BD126618BD127D004B7405 /* BasicInstantiationNetworkImageViewController.h */,
+				66BD126718BD127D004B7405 /* BasicInstantiationNetworkImageViewController.m */,
+				66BD127218BD127D004B7405 /* ContentModesNetworkImageViewController.h */,
+				66BD127318BD127D004B7405 /* ContentModesNetworkImageViewController.m */,
+			);
+			name = "Network Image";
+			sourceTree = "<group>";
+		};
+		66F8984C18BD1BAE00CEFA43 /* Paging Scroll View */ = {
+			isa = PBXGroup;
+			children = (
+				66BD12A618BD127D004B7405 /* SamplePageView.h */,
+				66BD12A718BD127D004B7405 /* SamplePageView.m */,
+				66BD126818BD127D004B7405 /* BasicInstantiationPagingScrollViewController.h */,
+				66BD126918BD127D004B7405 /* BasicInstantiationPagingScrollViewController.m */,
+				66BD12AC18BD127D004B7405 /* VerticalPagingScrollViewController.h */,
+				66BD12AD18BD127D004B7405 /* VerticalPagingScrollViewController.m */,
+			);
+			name = "Paging Scroll View";
+			sourceTree = "<group>";
+		};
+		66F8984D18BD1BCE00CEFA43 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				66BD126A18BD127D004B7405 /* BasicInstantiationTableModelViewController.h */,
+				66BD126B18BD127D004B7405 /* BasicInstantiationTableModelViewController.m */,
+				66BD12A818BD127D004B7405 /* SectionedTableModelViewController.h */,
+				66BD12A918BD127D004B7405 /* SectionedTableModelViewController.m */,
+				66BD128418BD127D004B7405 /* IndexedTableModelViewController.h */,
+				66BD128518BD127D004B7405 /* IndexedTableModelViewController.m */,
+				66BD125618BD127D004B7405 /* ActionsTableModelViewController.h */,
+				66BD125718BD127D004B7405 /* ActionsTableModelViewController.m */,
+				66BD12A218BD127D004B7405 /* RadioGroupTableModelViewController.h */,
+				66BD12A318BD127D004B7405 /* RadioGroupTableModelViewController.m */,
+				66BD129818BD127D004B7405 /* NestedRadioGroupTableModelViewController.h */,
+				66BD129918BD127D004B7405 /* NestedRadioGroupTableModelViewController.m */,
+				66BD129018BD127D004B7405 /* ModalRadioGroupTableModelViewController.h */,
+				66BD129118BD127D004B7405 /* ModalRadioGroupTableModelViewController.m */,
+				66BD128018BD127D004B7405 /* FormCellCatalogViewController.h */,
+				66BD128118BD127D004B7405 /* FormCellCatalogViewController.m */,
+				66BD126C18BD127D004B7405 /* BlockCellsViewController.h */,
+				66BD126D18BD127D004B7405 /* BlockCellsViewController.m */,
+				66BD129A18BD127D004B7405 /* NetworkBlockCellsViewController.h */,
+				66BD129B18BD127D004B7405 /* NetworkBlockCellsViewController.m */,
+				66BD12AA18BD127D004B7405 /* SnapshotRotationTableViewController.h */,
+				66BD12AB18BD127D004B7405 /* SnapshotRotationTableViewController.m */,
+				66BD129618BD127D004B7405 /* MutableTableModelViewController.h */,
+				66BD129718BD127D004B7405 /* MutableTableModelViewController.m */,
+			);
+			name = Tables;
+			sourceTree = "<group>";
+		};
+		66F8984E18BD1C2500CEFA43 /* Web Controller */ = {
+			isa = PBXGroup;
+			children = (
+				66BD127E18BD127D004B7405 /* ExtraActionsWebViewController.h */,
+				66BD127F18BD127D004B7405 /* ExtraActionsWebViewController.m */,
+				66F8984F18BD1C4200CEFA43 /* NimbusWebController.bundle */,
+			);
+			name = "Web Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,8 +595,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66F8984718BD1ABC00CEFA43 /* Icon.png in Resources */,
+				66F8983E18BD1A6E00CEFA43 /* ApplicationBadges.xib in Resources */,
 				6617C98A18B25A93006BABCE /* InfoPlist.strings in Resources */,
+				66F8983F18BD1A6E00CEFA43 /* AttributedLabelMashup.xib in Resources */,
+				66F8984018BD1A6E00CEFA43 /* CustomTextCell.xib in Resources */,
+				66F8983D18BD1A6E00CEFA43 /* AlignmentAttributedLabelViewController.xib in Resources */,
+				66F8985018BD1C4200CEFA43 /* NimbusWebController.bundle in Resources */,
+				66F8984118BD1A6E00CEFA43 /* NimbusKitCell.xib in Resources */,
 				6617C99218B25A93006BABCE /* Images.xcassets in Resources */,
+				66F8984618BD1ABC00CEFA43 /* circle.png in Resources */,
+				66F8984918BD1ABC00CEFA43 /* star.png in Resources */,
+				66F8984818BD1ABC00CEFA43 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,8 +617,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66BD12C318BD127D004B7405 /* FormCellCatalogViewController.m in Sources */,
+				66BD12EF18BD13AF004B7405 /* AFHTTPRequestOperationManager.m in Sources */,
+				66BD12F218BD13AF004B7405 /* AFSecurityPolicy.m in Sources */,
+				66BD12B918BD127D004B7405 /* BlockCellsViewController.m in Sources */,
 				6617C99018B25A93006BABCE /* AppDelegate.m in Sources */,
+				66BD12B618BD127D004B7405 /* BasicInstantiationNetworkImageViewController.m in Sources */,
+				66BD12CB18BD127D004B7405 /* ModalRadioGroupTableModelViewController.m in Sources */,
+				66BD12B418BD127D004B7405 /* BasicInstantiationCollectionModelViewController.m in Sources */,
+				66BD12EE18BD13AF004B7405 /* AFHTTPRequestOperation.m in Sources */,
+				66BD12C818BD127D004B7405 /* InterfaceBuilderBadgeViewController.m in Sources */,
+				66BD12BB18BD127D004B7405 /* ColorCell.m in Sources */,
+				66BD12CA18BD127D004B7405 /* LongTapAttributedLabelViewController.m in Sources */,
+				66BD12B718BD127D004B7405 /* BasicInstantiationPagingScrollViewController.m in Sources */,
+				66BD12B218BD127D004B7405 /* BasicInstantiationAttributedLabelViewController.m in Sources */,
+				66BD12BC18BD127D004B7405 /* ContentModesNetworkImageViewController.m in Sources */,
+				66BD12B318BD127D004B7405 /* BasicInstantiationBadgeViewController.m in Sources */,
+				66BD12F318BD13AF004B7405 /* AFURLConnectionOperation.m in Sources */,
+				66BD12D418BD127D004B7405 /* RadioGroupTableModelViewController.m in Sources */,
+				66BD12D018BD127D004B7405 /* NetworkBlockCellsViewController.m in Sources */,
+				66BD12CE18BD127D004B7405 /* MutableTableModelViewController.m in Sources */,
+				66BD12B818BD127D004B7405 /* BasicInstantiationTableModelViewController.m in Sources */,
+				66BD12D118BD127D004B7405 /* NibCellObject.m in Sources */,
+				66BD12BF18BD127D004B7405 /* CustomTextAttributedLabelViewController.m in Sources */,
+				66BD12C718BD127D004B7405 /* InterfaceBuilderAttributedLabelViewController.m in Sources */,
+				66BD12D218BD127D004B7405 /* NibCollectionModelViewController.m in Sources */,
+				66BD12F618BD13AF004B7405 /* AFURLSessionManager.m in Sources */,
+				66BD12D318BD127D004B7405 /* PerformanceAttributedLabelViewController.m in Sources */,
+				66BD12AF18BD127D004B7405 /* AlignmentAttributedLabelViewController.m in Sources */,
+				66BD12CF18BD127D004B7405 /* NestedRadioGroupTableModelViewController.m in Sources */,
+				66BD12AE18BD127D004B7405 /* ActionsTableModelViewController.m in Sources */,
+				66BD12F018BD13AF004B7405 /* AFHTTPSessionManager.m in Sources */,
+				66BD12D618BD127D004B7405 /* SamplePageView.m in Sources */,
+				66BD12D718BD127D004B7405 /* SectionedTableModelViewController.m in Sources */,
+				66BD12D918BD127D004B7405 /* VerticalPagingScrollViewController.m in Sources */,
+				66BD12F518BD13AF004B7405 /* AFURLResponseSerialization.m in Sources */,
+				66BD12C518BD127D004B7405 /* IndexedTableModelViewController.m in Sources */,
+				66BD12BE18BD127D004B7405 /* CustomNibCollectionModelViewController.m in Sources */,
+				66BD12C218BD127D004B7405 /* ExtraActionsWebViewController.m in Sources */,
+				66BD12BA18BD127D004B7405 /* CatalogViewController.m in Sources */,
 				6617C98C18B25A93006BABCE /* main.m in Sources */,
+				66BD12BD18BD127D004B7405 /* CustomizingBadgesViewController.m in Sources */,
+				66BD12F418BD13AF004B7405 /* AFURLRequestSerialization.m in Sources */,
+				66BD12F118BD13AF004B7405 /* AFNetworkReachabilityManager.m in Sources */,
+				66BD12C918BD127D004B7405 /* LinksAttributedLabelViewController.m in Sources */,
+				66BD12D818BD127D004B7405 /* SnapshotRotationTableViewController.m in Sources */,
+				66BD12C418BD127D004B7405 /* ImagesAttributedLabelViewController.m in Sources */,
+				66BD12C118BD127D004B7405 /* DataTypesAttributedLabelViewController.m in Sources */,
+				66BD12C018BD127D004B7405 /* CustomTextCell.m in Sources */,
+				66BD12C618BD127D004B7405 /* InterappViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +771,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Catalog/Catalog-Prefix.pch";
 				INFOPLIST_FILE = "Catalog/Catalog-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -356,6 +785,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Catalog/Catalog-Prefix.pch";
 				INFOPLIST_FILE = "Catalog/Catalog-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

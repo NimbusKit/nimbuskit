@@ -14,14 +14,7 @@
 // limitations under the License.
 //
 
-#import <Availability.h>
+#import <NimbusKit/NimbusWebController.h>
 
-#ifndef __IPHONE_3_0
-#warning "This project uses features only available in iOS SDK 3.0 and later."
-#endif
-
-#ifdef __OBJC__
-  #import <UIKit/UIKit.h>
-  #import <Foundation/Foundation.h>
-  #import "AFNetworking.h"
-#endif
+@interface ExtraActionsWebViewController : NIWebController
+@end

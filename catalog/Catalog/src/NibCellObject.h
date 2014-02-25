@@ -1,5 +1,5 @@
 //
-// Copyright 2011-2014 NimbusKit
+// Copyright 2011-2014 Jeff Verkoeyen
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -14,14 +14,7 @@
 // limitations under the License.
 //
 
-#import <Availability.h>
+#import <NimbusKit/NimbusCollections.h>
 
-#ifndef __IPHONE_3_0
-#warning "This project uses features only available in iOS SDK 3.0 and later."
-#endif
-
-#ifdef __OBJC__
-  #import <UIKit/UIKit.h>
-  #import <Foundation/Foundation.h>
-  #import "AFNetworking.h"
-#endif
+@interface NibCellObject : NSObject <NICollectionViewNibCellObject>
+@end

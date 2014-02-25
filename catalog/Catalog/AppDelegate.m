@@ -16,14 +16,16 @@
 
 #import "AppDelegate.h"
 
-#import <NimbusKit/NimbusKit.h>
+#import "CatalogViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
   self.window.backgroundColor = [UIColor whiteColor];
-  self.window.rootViewController = [[UINavigationController alloc] init];
+  UIViewController* rvc = [[CatalogViewController alloc] init];
+  UINavigationController* nc = [[UINavigationController alloc] initWithRootViewController:rvc];
+  self.window.rootViewController = nc;
   [self.window makeKeyAndVisible];
   return YES;
 }

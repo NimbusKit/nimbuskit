@@ -1,4 +1,5 @@
 //
+// Copyright 2012 Manu Cornet
 // Copyright 2011-2014 NimbusKit
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,16 +13,15 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-//
 
-#import <Availability.h>
+#import <UIKit/UIKit.h>
 
-#ifndef __IPHONE_3_0
-#warning "This project uses features only available in iOS SDK 3.0 and later."
-#endif
+#import <NimbusKit/NimbusPagingScrollView.h>
 
-#ifdef __OBJC__
-  #import <UIKit/UIKit.h>
-  #import <Foundation/Foundation.h>
-  #import "AFNetworking.h"
-#endif
+// This is the page view object that will be displayed for each page of the paging scroll view.
+// Pages that will be displayed in a NIPagingScrollView must implement the NIPagingScrollViewPage
+// protocol.
+@interface SamplePageView : UIView <NIPagingScrollViewPage>
+@property (nonatomic, retain) UILabel* label;
+- (id)initWithReuseIdentifier:(NSString *)reuseIdentifier;
+@end
