@@ -1,5 +1,5 @@
 //
-// Copyright 2011-2014 NimbusKit
+// Copyright 2011-2012 Jeff Verkoeyen
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -14,18 +14,5 @@
 // limitations under the License.
 //
 
-#import "AppDelegate.h"
-
-#import <NimbusKit/NimbusKit.h>
-
-@implementation AppDelegate
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-  self.window.backgroundColor = [UIColor whiteColor];
-  self.window.rootViewController = [[UINavigationController alloc] init];
-  [self.window makeKeyAndVisible];
-  return YES;
-}
-
-@end
+GCC_GENERATE_TEST_COVERAGE_FILES=NO
+GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=NO
