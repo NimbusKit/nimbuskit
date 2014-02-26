@@ -175,6 +175,8 @@
 		66E8F67C18B29577005B65B0 /* UIResponder+NimbusCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8F66A18B29577005B65B0 /* UIResponder+NimbusCore.m */; };
 		66E8F68218B2958C005B65B0 /* NIActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8F67F18B2958C005B65B0 /* NIActions.m */; };
 		66E8F68718B295AA005B65B0 /* NISnapshotRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8F68618B295AA005B65B0 /* NISnapshotRotation.m */; };
+		66F8986818BD6B6200CEFA43 /* NINumberBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 66F8986618BD6B6200CEFA43 /* NINumberBadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66F8986918BD6B6200CEFA43 /* NINumberBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F8986718BD6B6200CEFA43 /* NINumberBadgeView.m */; };
 		66FE8A0418B4ED220052B4D6 /* MarkdownTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE89FF18B4ED220052B4D6 /* MarkdownTokenizer.m */; };
 		66FE8A0618B4ED220052B4D6 /* MarkdownTokens.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE8A0118B4ED220052B4D6 /* MarkdownTokens.m */; };
 		66FE8A0718B4ED220052B4D6 /* NSAttributedStringMarkdownParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 66FE8A0218B4ED220052B4D6 /* NSAttributedStringMarkdownParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -424,6 +426,8 @@
 		66F8986318BD5BAA00CEFA43 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		66F8986418BD5BAA00CEFA43 /* AFURLSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		66F8986518BD5BAA00CEFA43 /* AFURLSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		66F8986618BD6B6200CEFA43 /* NINumberBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NINumberBadgeView.h; sourceTree = "<group>"; };
+		66F8986718BD6B6200CEFA43 /* NINumberBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NINumberBadgeView.m; sourceTree = "<group>"; };
 		66FE89FF18B4ED220052B4D6 /* MarkdownTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkdownTokenizer.m; sourceTree = "<group>"; };
 		66FE8A0018B4ED220052B4D6 /* MarkdownTokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkdownTokens.h; sourceTree = "<group>"; };
 		66FE8A0118B4ED220052B4D6 /* MarkdownTokens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkdownTokens.m; sourceTree = "<group>"; };
@@ -541,6 +545,8 @@
 				66D91E2818B2B20500D0A8A0 /* NimbusBadge.h */,
 				66D91E2618B2B20500D0A8A0 /* NIBadgeView.h */,
 				66D91E2718B2B20500D0A8A0 /* NIBadgeView.m */,
+				66F8986618BD6B6200CEFA43 /* NINumberBadgeView.h */,
+				66F8986718BD6B6200CEFA43 /* NINumberBadgeView.m */,
 			);
 			name = badge;
 			path = ../../features/badge/src;
@@ -1077,6 +1083,7 @@
 				66FE8A1D18B4F21C0052B4D6 /* NimbusSockit.h in Headers */,
 				66D91EE918B4206F00D0A8A0 /* fmemopen.h in Headers */,
 				66D91E7E18B2F85200D0A8A0 /* NIDeviceInfo.h in Headers */,
+				66F8986818BD6B6200CEFA43 /* NINumberBadgeView.h in Headers */,
 				66D91E1B18B2AF4400D0A8A0 /* NIAttributedLabel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1227,6 +1234,7 @@
 				66D91E2A18B2B20500D0A8A0 /* NIBadgeView.m in Sources */,
 				66E8F67518B29577005B65B0 /* NINonRetainingCollections.m in Sources */,
 				66D91E3D18B2B61C00D0A8A0 /* NICollectionViewActions.m in Sources */,
+				66F8986918BD6B6200CEFA43 /* NINumberBadgeView.m in Sources */,
 				66D91E5F18B2BBAE00D0A8A0 /* NIImageResponseSerializer.m in Sources */,
 				66E8F67018B29577005B65B0 /* NIFoundationMethods.m in Sources */,
 				66D91E8318B2F85200D0A8A0 /* NIOverview.m in Sources */,
