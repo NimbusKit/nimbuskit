@@ -407,11 +407,11 @@
 		66F8982B18BD190B00CEFA43 /* Badge */ = {
 			isa = PBXGroup;
 			children = (
-				66BD128A18BD127D004B7405 /* InterfaceBuilderBadgeViewController.h */,
 				66BD126018BD127D004B7405 /* BasicInstantiationBadgeViewController.h */,
 				66BD126118BD127D004B7405 /* BasicInstantiationBadgeViewController.m */,
 				66BD127418BD127D004B7405 /* CustomizingBadgesViewController.h */,
 				66BD127518BD127D004B7405 /* CustomizingBadgesViewController.m */,
+				66BD128A18BD127D004B7405 /* InterfaceBuilderBadgeViewController.h */,
 				66BD128B18BD127D004B7405 /* InterfaceBuilderBadgeViewController.m */,
 				66F8983918BD1A6E00CEFA43 /* ApplicationBadges.xib */,
 			);
