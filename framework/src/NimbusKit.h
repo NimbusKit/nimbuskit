@@ -16,7 +16,6 @@
 
 #define NIMBUSKIT_FRAMEWORK
 
-#import <NimbusKit/NimbusActions.h>
 #import <NimbusKit/NimbusAttributedLabel.h>
 #import <NimbusKit/NimbusBadge.h>
 #import <NimbusKit/NimbusCore.h>
@@ -27,6 +26,7 @@
 #import <NimbusKit/NimbusOverview.h>
 #import <NimbusKit/NimbusMarkdown.h>
 #import <NimbusKit/NimbusMemoryMapping.h>
+#import <NimbusKit/NimbusModels.h>
 #import <NimbusKit/NimbusPagingScrollView.h>
 #import <NimbusKit/NimbusPhotos.h>
 #import <NimbusKit/NimbusSnapshotRotation.h>

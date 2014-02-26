@@ -54,7 +54,7 @@
     // matches the index sorting algorithm.
     //
     // In this example we use a static list of names that are sorted by last name and
-    // NITableViewModelSectionIndexAlphabetical as the index type.
+    // NIModelSectionIndexAlphabetical as the index type.
     NSArray* tableContents =
     [NSArray arrayWithObjects:
      @"A",
@@ -102,15 +102,15 @@
     _model = [[NITableViewModel alloc] initWithSectionedArray:tableContents
                                                      delegate:(id)[NICellFactory class]];
 
-    // NITableViewModelSectionIndexAlphabetical generates an index that shows the entire alphabetic
+    // NIModelSectionIndexAlphabetical generates an index that shows the entire alphabetic
     // range from A-Z. When the user taps any of these letters the model will jump to the closest
     // section for the tapped letter.
     //
     // Experiment:
-    // Try changing the index type to NITableViewModelSectionIndexDynamic. You should notice that
+    // Try changing the index type to NIModelSectionIndexDynamic. You should notice that
     // the index is now generated from the section headers. In nearly every case you will want to
     // use the alphabetical index.
-    [_model setSectionIndexType:NITableViewModelSectionIndexAlphabetical
+    [_model setSectionIndexType:NIModelSectionIndexAlphabetical
                     showsSearch:NO
                    showsSummary:NO];
   }

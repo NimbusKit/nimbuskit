@@ -57,7 +57,7 @@
     _model = [[NIMutableTableViewModel alloc] initWithDelegate:self];
 
     // We are going to show how to recompile the section index so we provide the settings here.
-    [_model setSectionIndexType:NITableViewModelSectionIndexDynamic
+    [_model setSectionIndexType:NIModelSectionIndexDynamic
                     showsSearch:NO
                    showsSummary:NO];
 
