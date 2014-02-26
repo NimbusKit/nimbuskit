@@ -229,8 +229,6 @@
 		66276D0618BE707400B27F5A /* NIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIModel.m; sourceTree = "<group>"; };
 		66276D0918BE708600B27F5A /* NIMutableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMutableModel.h; sourceTree = "<group>"; };
 		66276D0A18BE708600B27F5A /* NIMutableModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMutableModel.m; sourceTree = "<group>"; };
-		66319AFF18BE93A700609728 /* NIModel+Subclassing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NIModel+Subclassing.h"; sourceTree = "<group>"; };
-		66319B0018BE982900609728 /* NIMutableModel+Subclassing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NIMutableModel+Subclassing.h"; sourceTree = "<group>"; };
 		66A830ED18B29B900017FBD9 /* NICommonMetricsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NICommonMetricsTests.m; sourceTree = "<group>"; };
 		66A830EE18B29B900017FBD9 /* NICoreAdditionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NICoreAdditionTests.m; sourceTree = "<group>"; };
 		66A830EF18B29B900017FBD9 /* NIFoundationMethodsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIFoundationMethodsTests.m; sourceTree = "<group>"; };
@@ -882,10 +880,8 @@
 				66E8F68018B2958C005B65B0 /* NIActions+Subclassing.h */,
 				66276D0518BE707400B27F5A /* NIModel.h */,
 				66276D0618BE707400B27F5A /* NIModel.m */,
-				66319AFF18BE93A700609728 /* NIModel+Subclassing.h */,
 				66276D0918BE708600B27F5A /* NIMutableModel.h */,
 				66276D0A18BE708600B27F5A /* NIMutableModel.m */,
-				66319B0018BE982900609728 /* NIMutableModel+Subclassing.h */,
 			);
 			name = models;
 			path = ../../features/models/src;

@@ -195,7 +195,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
   // We ask each block to calculate its size in order to create variable-height block cells.
-  NIDrawRectBlockCellObject *object = [self.model objectAtIndexPath:indexPath];
+  NIDrawRectBlockCellObject *object = [self.model.objects objectAtIndexPath:indexPath];
   return object.block(self.tableView.bounds, object.object, nil);
 }
 
