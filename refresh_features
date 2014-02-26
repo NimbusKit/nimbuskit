@@ -45,7 +45,6 @@ refresh_feature() {
   fi
 }
 
-refresh_feature Actions
 refresh_feature AttributedLabel
 refresh_feature Badge
 refresh_feature Collections
@@ -56,6 +55,7 @@ refresh_feature NetworkImage
 refresh_feature Overview
 refresh_feature Markdown
 refresh_feature MemoryMapping
+refresh_feature Models
 refresh_feature PagingScrollView
 refresh_feature Photos
 refresh_feature SnapshotRotation

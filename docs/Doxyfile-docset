@@ -754,7 +754,6 @@ WARN_LOGFILE           =
 # Note: If this tag is empty the current directory is searched.
 
 INPUT                  = \
-                         features/actions/src \
                          features/attributedlabel/src \
                          features/badge/src \
                          features/collections/src \
@@ -765,6 +764,7 @@ INPUT                  = \
                          features/overview/src \
                          features/markdown/src \
                          features/memorymapping/src \
+                         features/models/src \
                          features/pagingscrollview/src \
                          features/photos/src \
                          features/snapshotrotation/src \

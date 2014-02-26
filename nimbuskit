@@ -26,7 +26,6 @@ import sys
 from optparse import OptionParser
 
 features = [
-	"Actions",
 	"AttributedLabel",
 	"Badge",
 	"Collections",
@@ -37,6 +36,7 @@ features = [
 	"Overview",
 	"Markdown",
 	"MemoryMapping",
+	"Models",
 	"PagingScrollView",
 	"Photos",
 	"Sockit",

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		66A830B418B299950017FBD9 /* NimbusKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E8F6C218B2972E005B65B0 /* NimbusKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66A830B518B2999A0017FBD9 /* NimbusActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E8F68118B2958C005B65B0 /* NimbusActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66A830B518B2999A0017FBD9 /* NimbusModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E8F68118B2958C005B65B0 /* NimbusModels.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66A830B618B299A90017FBD9 /* NimbusCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E8F65318B29577005B65B0 /* NimbusCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66A830B718B299AB0017FBD9 /* NimbusCore+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E8F65418B29577005B65B0 /* NimbusCore+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66A830B818B299AF0017FBD9 /* NimbusSnapshotRotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E8F68418B295AA005B65B0 /* NimbusSnapshotRotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -402,7 +402,7 @@
 		66E8F67E18B2958B005B65B0 /* NIActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIActions.h; sourceTree = "<group>"; };
 		66E8F67F18B2958C005B65B0 /* NIActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIActions.m; sourceTree = "<group>"; };
 		66E8F68018B2958C005B65B0 /* NIActions+Subclassing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NIActions+Subclassing.h"; sourceTree = "<group>"; };
-		66E8F68118B2958C005B65B0 /* NimbusActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NimbusActions.h; sourceTree = "<group>"; };
+		66E8F68118B2958C005B65B0 /* NimbusModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NimbusModels.h; sourceTree = "<group>"; };
 		66E8F68418B295AA005B65B0 /* NimbusSnapshotRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NimbusSnapshotRotation.h; sourceTree = "<group>"; };
 		66E8F68518B295AA005B65B0 /* NISnapshotRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NISnapshotRotation.h; sourceTree = "<group>"; };
 		66E8F68618B295AA005B65B0 /* NISnapshotRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NISnapshotRotation.m; sourceTree = "<group>"; };
@@ -746,7 +746,6 @@
 			isa = PBXGroup;
 			children = (
 				66E8F6C218B2972E005B65B0 /* NimbusKit.h */,
-				66E8F67D18B29580005B65B0 /* actions */,
 				66CBA64118B2AF16003BC379 /* attributedlabel */,
 				66D91E2518B2B1F100D0A8A0 /* badge */,
 				66D91E3018B2B60900D0A8A0 /* collections */,
@@ -755,6 +754,7 @@
 				66D91E4918B2B89E00D0A8A0 /* interapp */,
 				66FE89FE18B4ED060052B4D6 /* markdown */,
 				66D91EE518B4205800D0A8A0 /* memorymapping */,
+				66E8F67D18B29580005B65B0 /* models */,
 				66D91E5318B2BB9A00D0A8A0 /* networkimage */,
 				66D91E6B18B2F83900D0A8A0 /* overview */,
 				66D91EA318B2FB9300D0A8A0 /* pagingscrollview */,
@@ -862,17 +862,17 @@
 			path = core/tests;
 			sourceTree = "<group>";
 		};
-		66E8F67D18B29580005B65B0 /* actions */ = {
+		66E8F67D18B29580005B65B0 /* models */ = {
 			isa = PBXGroup;
 			children = (
 				66D91E2118B2B00B00D0A8A0 /* deps.json */,
-				66E8F68118B2958C005B65B0 /* NimbusActions.h */,
+				66E8F68118B2958C005B65B0 /* NimbusModels.h */,
 				66E8F67E18B2958B005B65B0 /* NIActions.h */,
 				66E8F67F18B2958C005B65B0 /* NIActions.m */,
 				66E8F68018B2958C005B65B0 /* NIActions+Subclassing.h */,
 			);
-			name = actions;
-			path = ../../features/actions/src;
+			name = models;
+			path = ../../features/models/src;
 			sourceTree = "<group>";
 		};
 		66E8F68318B29596005B65B0 /* snapshotrotation */ = {
@@ -992,7 +992,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66A830B418B299950017FBD9 /* NimbusKit.h in Headers */,
-				66A830B518B2999A0017FBD9 /* NimbusActions.h in Headers */,
+				66A830B518B2999A0017FBD9 /* NimbusModels.h in Headers */,
 				66A830B618B299A90017FBD9 /* NimbusCore.h in Headers */,
 				66A830B718B299AB0017FBD9 /* NimbusCore+Additions.h in Headers */,
 				66A830B818B299AF0017FBD9 /* NimbusSnapshotRotation.h in Headers */,
