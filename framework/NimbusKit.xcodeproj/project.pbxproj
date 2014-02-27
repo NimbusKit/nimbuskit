@@ -12,7 +12,7 @@
 		66276D0B18BE708600B27F5A /* NIMutableModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 66276D0918BE708600B27F5A /* NIMutableModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66276D0C18BE708600B27F5A /* NIMutableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66276D0A18BE708600B27F5A /* NIMutableModel.m */; };
 		66A830B418B299950017FBD9 /* NimbusKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E8F6C218B2972E005B65B0 /* NimbusKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66A830B518B2999A0017FBD9 /* NimbusModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E8F68118B2958C005B65B0 /* NimbusModels.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66A830B518B2999A0017FBD9 /* NimbusDelegatesAndDataSources.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E8F68118B2958C005B65B0 /* NimbusDelegatesAndDataSources.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66A830B618B299A90017FBD9 /* NimbusCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E8F65318B29577005B65B0 /* NimbusCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66A830B718B299AB0017FBD9 /* NimbusCore+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E8F65418B29577005B65B0 /* NimbusCore+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66A830B818B299AF0017FBD9 /* NimbusSnapshotRotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E8F68418B295AA005B65B0 /* NimbusSnapshotRotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -229,6 +229,7 @@
 		66276D0618BE707400B27F5A /* NIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIModel.m; sourceTree = "<group>"; };
 		66276D0918BE708600B27F5A /* NIMutableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMutableModel.h; sourceTree = "<group>"; };
 		66276D0A18BE708600B27F5A /* NIMutableModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMutableModel.m; sourceTree = "<group>"; };
+		66319B0118BF866900609728 /* NIModel+Subclassing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NIModel+Subclassing.h"; sourceTree = "<group>"; };
 		66A830ED18B29B900017FBD9 /* NICommonMetricsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NICommonMetricsTests.m; sourceTree = "<group>"; };
 		66A830EE18B29B900017FBD9 /* NICoreAdditionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NICoreAdditionTests.m; sourceTree = "<group>"; };
 		66A830EF18B29B900017FBD9 /* NIFoundationMethodsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIFoundationMethodsTests.m; sourceTree = "<group>"; };
@@ -410,7 +411,7 @@
 		66E8F67E18B2958B005B65B0 /* NIActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIActions.h; sourceTree = "<group>"; };
 		66E8F67F18B2958C005B65B0 /* NIActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIActions.m; sourceTree = "<group>"; };
 		66E8F68018B2958C005B65B0 /* NIActions+Subclassing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NIActions+Subclassing.h"; sourceTree = "<group>"; };
-		66E8F68118B2958C005B65B0 /* NimbusModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NimbusModels.h; sourceTree = "<group>"; };
+		66E8F68118B2958C005B65B0 /* NimbusDelegatesAndDataSources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NimbusDelegatesAndDataSources.h; sourceTree = "<group>"; };
 		66E8F68418B295AA005B65B0 /* NimbusSnapshotRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NimbusSnapshotRotation.h; sourceTree = "<group>"; };
 		66E8F68518B295AA005B65B0 /* NISnapshotRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NISnapshotRotation.h; sourceTree = "<group>"; };
 		66E8F68618B295AA005B65B0 /* NISnapshotRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NISnapshotRotation.m; sourceTree = "<group>"; };
@@ -759,10 +760,10 @@
 				66D91E3018B2B60900D0A8A0 /* collections */,
 				66E8F64118B2953B005B65B0 /* core */,
 				66FE8A2618B5264F0052B4D6 /* decimalnumberfield */,
+				66E8F67D18B29580005B65B0 /* delegatesanddatasources */,
 				66D91E4918B2B89E00D0A8A0 /* interapp */,
 				66FE89FE18B4ED060052B4D6 /* markdown */,
 				66D91EE518B4205800D0A8A0 /* memorymapping */,
-				66E8F67D18B29580005B65B0 /* models */,
 				66D91E5318B2BB9A00D0A8A0 /* networkimage */,
 				66D91E6B18B2F83900D0A8A0 /* overview */,
 				66D91EA318B2FB9300D0A8A0 /* pagingscrollview */,
@@ -870,21 +871,22 @@
 			path = core/tests;
 			sourceTree = "<group>";
 		};
-		66E8F67D18B29580005B65B0 /* models */ = {
+		66E8F67D18B29580005B65B0 /* delegatesanddatasources */ = {
 			isa = PBXGroup;
 			children = (
 				66D91E2118B2B00B00D0A8A0 /* deps.json */,
-				66E8F68118B2958C005B65B0 /* NimbusModels.h */,
+				66E8F68118B2958C005B65B0 /* NimbusDelegatesAndDataSources.h */,
 				66E8F67E18B2958B005B65B0 /* NIActions.h */,
 				66E8F67F18B2958C005B65B0 /* NIActions.m */,
 				66E8F68018B2958C005B65B0 /* NIActions+Subclassing.h */,
 				66276D0518BE707400B27F5A /* NIModel.h */,
 				66276D0618BE707400B27F5A /* NIModel.m */,
+				66319B0118BF866900609728 /* NIModel+Subclassing.h */,
 				66276D0918BE708600B27F5A /* NIMutableModel.h */,
 				66276D0A18BE708600B27F5A /* NIMutableModel.m */,
 			);
-			name = models;
-			path = ../../features/models/src;
+			name = delegatesanddatasources;
+			path = ../../features/delegatesanddatasources/src;
 			sourceTree = "<group>";
 		};
 		66E8F68318B29596005B65B0 /* snapshotrotation */ = {
@@ -1004,7 +1006,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66A830B418B299950017FBD9 /* NimbusKit.h in Headers */,
-				66A830B518B2999A0017FBD9 /* NimbusModels.h in Headers */,
+				66A830B518B2999A0017FBD9 /* NimbusDelegatesAndDataSources.h in Headers */,
 				66A830B618B299A90017FBD9 /* NimbusCore.h in Headers */,
 				66A830B718B299AB0017FBD9 /* NimbusCore+Additions.h in Headers */,
 				66A830B818B299AF0017FBD9 /* NimbusSnapshotRotation.h in Headers */,

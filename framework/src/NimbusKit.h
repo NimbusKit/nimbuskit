@@ -21,12 +21,12 @@
 #import <NimbusKit/NimbusCore.h>
 #import <NimbusKit/NimbusCollections.h>
 #import <NimbusKit/NimbusDecimalNumberField.h>
+#import <NimbusKit/NimbusDelegatesAndDataSources.h>
 #import <NimbusKit/NimbusInterapp.h>
 #import <NimbusKit/NimbusNetworkImage.h>
 #import <NimbusKit/NimbusOverview.h>
 #import <NimbusKit/NimbusMarkdown.h>
 #import <NimbusKit/NimbusMemoryMapping.h>
-#import <NimbusKit/NimbusModels.h>
 #import <NimbusKit/NimbusPagingScrollView.h>
 #import <NimbusKit/NimbusPhotos.h>
 #import <NimbusKit/NimbusSnapshotRotation.h>

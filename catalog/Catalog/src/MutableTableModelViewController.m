@@ -87,7 +87,7 @@
 
 - (void)didTapAddButton:(UIBarButtonItem *)buttonItem {
   // We first create a new section in the model.
-  NSIndexSet* indexSet = [self.model addSectionWithTitle:[self randomName]];
+  NSIndexSet* indexSet = [self.model.objects addSectionWithTitle:[self randomName]];
 
   // Then we create an array of objects that we want to add to this section.
   NSMutableArray *objects = [NSMutableArray array];
@@ -97,7 +97,7 @@
 
   // The result of adding these objects is an array of index paths that can be used to ensure the
   // visibility of the new objects.
-  NSArray* indexPaths = [self.model addObjectsFromArray:objects];
+  NSArray* indexPaths = [self.model.objects addObjectsFromArray:objects];
 
   // Now that we've modified the model, we want to recompile the section index before notifying the
   // table view of changes to the model.
@@ -154,7 +154,7 @@
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
   if (alertView.cancelButtonIndex != buttonIndex) {
     // If the user hits "OK" then let's delete the object from the model.
-    NSArray *indexPaths = [self.model removeObjectAtIndexPath:self.indexPathForDeletion];
+    NSArray *indexPaths = [self.model.objects removeObjectAtIndexPath:self.indexPathForDeletion];
 
     // And then notify the table view of the deletion.
     [self.tableView deleteRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationAutomatic];
