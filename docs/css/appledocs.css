@@ -6,12 +6,12 @@ body, table, div, p, dl {
 }
 
 a {
-  color: #F1A243;
+  color: #b37932;
   font-weight: normal;
 }
 
 .contents a:visited {
-  color: #F1A243;
+  color: #b37932;
 }
 
 a.el {
@@ -40,6 +40,20 @@ code {
 
 #titlearea {
   border-bottom: 1px solid #ACACAC;
+}
+
+/** Code */
+
+span.keywordflow {
+  color: #BA40A2;
+}
+
+span.keyword {
+  color: #BC40A3;
+}
+
+span.comment {
+  color: #40851F;
 }
 
 /** Nav-Tree */
