@@ -6,8 +6,12 @@ body, table, div, p, dl {
 }
 
 a {
-  color: #36C;
+  color: #F1A243;
   font-weight: normal;
+}
+
+.contents a:visited {
+  color: #F1A243;
 }
 
 a.el {
@@ -16,14 +20,22 @@ a.el {
 
 h2,
 h2.groupheader {
+  color: #883D1E;
+}
+
+h2,
+h2.groupheader {
   font-size: 187%;
-  color: #3C4C6C;
   font-weight: normal;
-  border-bottom: 1px solid #8391A8;
+  border-bottom: 1px solid #883D1E;
 }
 
 p {
   margin-top: 0;
+}
+
+code {
+  font-family: Courier, Consolas, monospace;
 }
 
 #titlearea {
@@ -112,10 +124,6 @@ tr.heading h2 {
   line-height: 0px;
 }
 
-.contents a:visited {
-  color: #4665A2;
-}
-
 h2.groupheader {
   margin: 0.83em 0;
   padding: 0;
@@ -156,6 +164,26 @@ div.groupHeader {
   color: black;
 }
 
+.paramsection {
+  margin: 0.3em 0;
+  padding: 0;
+}
+
+.paramsection dt {
+  font-weight: normal;
+}
+
+.paramsection dt em {
+  font-style: italic;
+}
+
+.paramsection dd {
+  margin-right: 0;
+  margin-left: 1.25em;
+  margin-top: 0.4em;
+  margin-bottom: 0.8em;
+}
+
 p.abstract {
   margin-top: 1.083em;
   margin-bottom: .833em;
@@ -186,7 +214,9 @@ h5 {
 
 .declaration {
   font: 104% Courier,Consolas,monospace;
-  margin: 1em 0;
+  margin: 0.5em 0;
+  background-color: ghostwhite;
+  padding: 0.5em;
 }
 
 div.fragment {
