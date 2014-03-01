@@ -65,7 +65,7 @@ static NSString* const kPageReuseIdentifier = @"SamplePageIdentifier";
   self.pagingScrollView = [[NIPagingScrollView alloc] initWithFrame:self.view.bounds];
 
   // This is the only change from the BasicInstantiation example.
-  self.pagingScrollView.type = NIPagingScrollViewVertical;
+  self.pagingScrollView.scrollDirection = UICollectionViewScrollDirectionVertical;
 
   self.pagingScrollView.autoresizingMask = UIViewAutoresizingFlexibleDimensions;
   self.pagingScrollView.dataSource = self;
