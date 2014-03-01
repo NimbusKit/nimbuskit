@@ -130,6 +130,8 @@ def gendocs():
 						else:
 							line = "@code\n"
 						code_block_open = not code_block_open
+					if line.startswith("![](https://github.com/NimbusKit/Catalog/raw/master/docs/gfx/"):
+						line = line.replace("![](https://github.com/NimbusKit/Catalog/raw/master/docs/gfx/", "@image html ").replace(")\n", "\n")
 					if prevline:
 						dst_file.write(prevline)
 					prevline = line
