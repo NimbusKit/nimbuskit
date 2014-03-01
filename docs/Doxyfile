@@ -773,6 +773,7 @@ INPUT                  = \
                          features/tableviewcontroller/src \
                          features/textfield/src \
                          features/webcontroller/src \
+                         .docsbuild
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses
@@ -794,7 +795,8 @@ INPUT_ENCODING         = UTF-8
 
 FILE_PATTERNS          = *.h \
                          *.m \
-                         *.mm
+                         *.mm \
+                         *.md
 
 # The RECURSIVE tag can be used to specify whether or not subdirectories should
 # be searched for input files as well.
@@ -2356,4 +2358,6 @@ NIMBUSKIT_HIDE_IMPLEMENTATION = YES
 NIMBUSKIT_ALLOW_STATIC_LINKS = YES
 NIMBUSKIT_APPLE_DOC_STYLE_PARAMS = YES
 NIMBUSKIT_LINKS_ARE_CODE = YES
+NIMBUSKIT_TREAT_MARKDOWN_FILES_AS_DOCS = YES
+NIMBUSKIT_TREAT_MARKDOWN_INDENTS_AS_CODE = YES
 ALIASES += protected="\n<b><i>For subclass use only.</i></b>\n"

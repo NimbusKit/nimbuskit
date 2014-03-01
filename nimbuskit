@@ -21,6 +21,7 @@ limitations under the License.
 import logging
 import re
 import os
+import shutil
 import string
 import sys
 from optparse import OptionParser
@@ -97,6 +98,52 @@ def push():
 
 		os.chdir(cwd)
 
+def gendocs():
+	cwd = os.getcwd()
+
+	if not os.path.exists('.docsbuild'):
+		os.makedirs('.docsbuild')
+
+	for feature in features:
+		foldername=string.lower(feature)
+		featurefolder="features/"+foldername
+
+		src = featurefolder+"/README.md"
+		dst = ".docsbuild/"+foldername+"README.md"
+		if os.path.exists(src):
+			code_block_open = False
+			with open(src, 'r') as src_file:
+				src_lines = src_file.readlines()
+				dst_file = open(dst, "w")
+				dst_file.write("/**\n")
+
+				prevline = None
+				for line in src_lines:
+					if line.startswith("<!--dox ") and line.endswith("-->\n"):
+						line = line.replace("<!--dox ", "").replace("-->", "")
+					if line.startswith("=="):
+						prevline = None
+						continue
+					if line.startswith("```"):
+						if code_block_open:
+							line = "@endcode\n"
+						else:
+							line = "@code\n"
+						code_block_open = not code_block_open
+					if prevline:
+						dst_file.write(prevline)
+					prevline = line
+				if prevline:
+					dst_file.write(prevline)
+				dst_file.write("\n */\n")
+				dst_file.close()
+				src_file.close()
+
+	os.system("doxygen docs/Doxyfile")
+
+	shutil.rmtree('.docsbuild')
+
+
 def main():
 	usage = '''%prog [options] command(s)
 
@@ -109,7 +156,10 @@ EXAMPLES:
     > %prog commit
 
     git push origin master for all features:
-      > %prog push'''
+    > %prog push
+
+    Generates all documentation:
+    > %prog gendocs'''
 	parser = OptionParser(usage = usage)
 
 	parser.add_option("-m", "--message", dest="message",
@@ -138,6 +188,9 @@ EXAMPLES:
 			did_anything = True
 		elif command == 'push':
 			push()
+			did_anything = True
+		elif command == 'gendocs':
+			gendocs()
 			did_anything = True
 
 	if not did_anything:
