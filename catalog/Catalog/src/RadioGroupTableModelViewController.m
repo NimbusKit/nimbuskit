@@ -130,10 +130,6 @@ typedef enum {
   self.tableView.delegate = [_actions forwardingTo:[_radioGroup forwardingTo:self]];
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
-  return NIIsSupportedOrientation(toInterfaceOrientation);
-}
-
 #pragma mark - User Actions
 
 - (BOOL)didTapObject:(id)object {

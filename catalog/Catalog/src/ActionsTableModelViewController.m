@@ -184,10 +184,6 @@
   self.tableView.delegate = [self.actions forwardingTo:self];
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
-  return NIIsSupportedOrientation(toInterfaceOrientation);
-}
-
 #pragma mark - Actions
 
 - (BOOL)didTapObject:(id)object {

@@ -58,11 +58,9 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
 
-  _nimbusTitle.strokeWidth = -3.0;
-  _nimbusTitle.strokeColor = [UIColor blackColor];
-
   // Kerning modifies the spacing between letters.
-  _nimbusTitle.textKern = 15.0;
+  _nimbusTitle.shadowColor = RGBACOLOR(0, 0, 0, 0.01);
+  _nimbusTitle.shadowOffset = CGSizeMake(0, 1);
 
   _label1.textAlignment = NSTextAlignmentJustified;
 
@@ -75,12 +73,12 @@
   _label3.linksHaveUnderlines = YES;
 
   _label4.textAlignment = NSTextAlignmentJustified;
-  [_label4 setTextColor:[UIColor orangeColor]  range:[_label4.text rangeOfString:@"Nimbus"]];
-  [_label4 setTextColor:[UIColor redColor]  range:[_label4.text rangeOfString:@"accelerates"]];
-  [_label4 setFont:[UIFont boldSystemFontOfSize:22] range:[_label4.text rangeOfString:@"iOS"]];
-  [_label4 setUnderlineStyle:kCTUnderlineStyleSingle modifier:kCTUnderlinePatternDash range:[_label4.text rangeOfString:@"documentation"]];
-  [_label4 setFont:[UIFont fontWithName:@"MarkerFelt-Wide" size:17] range:[_label4.text rangeOfString:@"Nimbus" options:NSBackwardsSearch]];
-  [_label4 addLink:[NSURL URLWithString:@"nimbus://custom/url"] range:[_label4.text rangeOfString:@"easy"]];
+  [_label4 setTextColor:RGBCOLOR(0xff, 0xa3, 0x36) range:[_label4.text rangeOfString:@"NimbusKit"]];
+  [_label4 setTextColor:[UIColor redColor]  range:[_label4.text rangeOfString:@"minimal"]];
+  [_label4 setFont:[UIFont boldSystemFontOfSize:22] range:[_label4.text rangeOfString:@"hundreds of millions"]];
+  [_label4 setUnderlineStyle:kCTUnderlineStyleSingle modifier:kCTUnderlinePatternDash range:[_label4.text rangeOfString:@"well-documented"]];
+  [_label4 setFont:[UIFont fontWithName:@"AmericanTypewriter" size:17] range:[_label4.text rangeOfString:@"NimbusKit" options:NSBackwardsSearch]];
+  [_label4 addLink:[NSURL URLWithString:@"nimbus://custom/url"] range:[_label4.text rangeOfString:@"modular"]];
 
   self.scrollView.contentSize = CGSizeMake(self.view.bounds.size.width, CGRectGetMaxY(_label4.frame));
 }

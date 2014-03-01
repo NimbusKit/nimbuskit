@@ -90,10 +90,6 @@ typedef enum {
   self.tableView.delegate = [self.radioGroup forwardingTo:self];
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
-  return NIIsSupportedOrientation(toInterfaceOrientation);
-}
-
 #pragma mark - NIRadioGroupDelegate
 
 - (void)radioGroup:(NIRadioGroup *)radioGroup didSelectIdentifier:(NSInteger)identifier {

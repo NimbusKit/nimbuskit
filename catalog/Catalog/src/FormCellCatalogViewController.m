@@ -184,10 +184,6 @@ typedef enum {
   [self.tableView addGestureRecognizer:tap];
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
-  return NIIsSupportedOrientation(toInterfaceOrientation);
-}
-
 - (void)segmentedControlWithImagesDidChangeValue:(UISegmentedControl *)segmentedControl {
   NIDPRINT(@"Segmented control changed value to index %@", [@(segmentedControl.selectedSegmentIndex) stringValue]);
 }

@@ -73,10 +73,6 @@
   self.tableView.dataSource = _model;
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
-  return NIIsSupportedOrientation(toInterfaceOrientation);
-}
-
 - (NSString *)randomName {
   NSMutableString *name = [[NSMutableString alloc] init];
   for (NSInteger ix = 0; ix < arc4random_uniform(10) + 5; ++ix) {
