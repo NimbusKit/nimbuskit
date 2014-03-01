@@ -98,6 +98,9 @@ def push():
 
 		os.chdir(cwd)
 
+# In order to support features having their own README files on Github while also defining Doxygen
+# groups we do some preprocessing of each feature's README before adding them to a shared .docsbuild
+# directory. We tell Doxygen to parse this directory in our Doxyfile.
 def gendocs():
 	cwd = os.getcwd()
 
