@@ -215,6 +215,7 @@
 		66D91E2F18B2B32400D0A8A0 /* refresh_features */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = refresh_features; path = ../refresh_features; sourceTree = "<group>"; };
 		66D91EDA18B41DD000D0A8A0 /* NimbusKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NimbusKit.xcodeproj; path = ../framework/NimbusKit.xcodeproj; sourceTree = "<group>"; };
 		66D91EED18B4D04000D0A8A0 /* nimbuskit */ = {isa = PBXFileReference; explicitFileType = text.script.python; name = nimbuskit; path = ../nimbuskit; sourceTree = "<group>"; };
+		66F5969C18C2289A003BE013 /* build_docs */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = build_docs; path = ../build_docs; sourceTree = "<group>"; };
 		66F8982218BD146600CEFA43 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		66F8982418BD147A00CEFA43 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		66F8982618BD148C00CEFA43 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
@@ -314,6 +315,7 @@
 			children = (
 				6671564B18B279A2007FF94F /* Doxyfile */,
 				6671564C18B279A2007FF94F /* Doxyfile-docset */,
+				66F5969C18C2289A003BE013 /* build_docs */,
 				66D91EED18B4D04000D0A8A0 /* nimbuskit */,
 				66D91E2F18B2B32400D0A8A0 /* refresh_features */,
 			);

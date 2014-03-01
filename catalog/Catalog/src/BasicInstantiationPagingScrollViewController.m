@@ -82,7 +82,14 @@ static NSString* const kPageReuseIdentifier = @"SamplePageIdentifier";
   [self.view addSubview:self.pagingScrollView];
 
   // Tells the paging scroll view to ask the dataSource for information about how to present itself.
+  [self.pagingScrollView registerPageClass:[SamplePageView class]];
   [self.pagingScrollView reloadData];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+  [super viewDidAppear:animated];
+
+  [self.pagingScrollView moveToPageAtIndex:10 animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -129,14 +136,12 @@ static NSString* const kPageReuseIdentifier = @"SamplePageIdentifier";
 // Unlike UITableViewDataSource, this method requests a UIView that conforms to a protocol, rather
 // than requiring a specific subclass of a type of view. This allows you to use any UIView as long
 // as it conforms to NIPagingScrollView.
-- (UIView<NIPagingScrollViewPage> *)pagingScrollView:(NIPagingScrollView *)pagingScrollView
+- (UICollectionViewCell<NIPagingScrollViewPage> *)pagingScrollView:(NIPagingScrollView *)pagingScrollView
                                     pageViewForIndex:(NSInteger)pageIndex {
   // Check the reusable page queue.
-  SamplePageView *page = (SamplePageView *)[pagingScrollView dequeueReusablePageWithIdentifier:kPageReuseIdentifier];
-  // If no page was in the reusable queue, we need to create one.
-  if (nil == page) {
-    page = [[SamplePageView alloc] initWithReuseIdentifier:kPageReuseIdentifier];
-  }
+  SamplePageView *page = (SamplePageView *)[pagingScrollView dequeueReusablePageWithIdentifier:NSStringFromClass([SamplePageView class]) forPageIndex:pageIndex];
+  page.pageIndex = pageIndex;
+  
   return page;
 }
 

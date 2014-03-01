@@ -19,9 +19,8 @@
 @implementation SamplePageView
 
 @synthesize pageIndex = _pageIndex;
-@synthesize reuseIdentifier;
 
-- (id)initWithReuseIdentifier:(NSString *)reuseIdentifier {
+- (id)initWithFrame:(CGRect)frame {
   if ((self = [super initWithFrame:CGRectZero])) {
     _label = [[UILabel alloc] initWithFrame:self.bounds];
     _label.autoresizingMask = UIViewAutoresizingFlexibleDimensions;
@@ -30,14 +29,8 @@
     _label.backgroundColor = [UIColor clearColor];
     
     [self addSubview:_label];
-      
-    self.reuseIdentifier = reuseIdentifier;
   }
   return self;
-}
-
-- (id)initWithFrame:(CGRect)frame {
-  return [self initWithReuseIdentifier:nil];
 }
 
 - (void)setPageIndex:(NSInteger)pageIndex {

@@ -70,6 +70,7 @@ static NSString* const kPageReuseIdentifier = @"SamplePageIdentifier";
   self.pagingScrollView.autoresizingMask = UIViewAutoresizingFlexibleDimensions;
   self.pagingScrollView.dataSource = self;
   [self.view addSubview:self.pagingScrollView];
+  [self.pagingScrollView registerPageClass:[SamplePageView class]];
   [self.pagingScrollView reloadData];
 }
 
@@ -104,12 +105,10 @@ static NSString* const kPageReuseIdentifier = @"SamplePageIdentifier";
   return 10;
 }
 
-- (UIView<NIPagingScrollViewPage> *)pagingScrollView:(NIPagingScrollView *)pagingScrollView
+- (UICollectionViewCell<NIPagingScrollViewPage> *)pagingScrollView:(NIPagingScrollView *)pagingScrollView
                                     pageViewForIndex:(NSInteger)pageIndex {
-  SamplePageView *page = (SamplePageView *)[pagingScrollView dequeueReusablePageWithIdentifier:kPageReuseIdentifier];
-  if (nil == page) {
-    page = [[SamplePageView alloc] initWithReuseIdentifier:kPageReuseIdentifier];
-  }
+  SamplePageView *page = (SamplePageView *)[pagingScrollView dequeueReusablePageWithIdentifier:NSStringFromClass([SamplePageView class]) forPageIndex:pageIndex];
+  page.pageIndex = pageIndex;
   return page;
 }
 

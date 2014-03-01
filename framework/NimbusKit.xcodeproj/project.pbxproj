@@ -416,6 +416,7 @@
 		66E8F68518B295AA005B65B0 /* NISnapshotRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NISnapshotRotation.h; sourceTree = "<group>"; };
 		66E8F68618B295AA005B65B0 /* NISnapshotRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NISnapshotRotation.m; sourceTree = "<group>"; };
 		66E8F6C218B2972E005B65B0 /* NimbusKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NimbusKit.h; sourceTree = "<group>"; };
+		66F5969B18C21D8B003BE013 /* README.md */ = {isa = PBXFileReference; explicitFileType = text.html.documentation; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		66F8985318BD5BAA00CEFA43 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		66F8985418BD5BAA00CEFA43 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		66F8985518BD5BAA00CEFA43 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -806,6 +807,7 @@
 			isa = PBXGroup;
 			children = (
 				66D91E2218B2B05E00D0A8A0 /* deps.json */,
+				66F5969B18C21D8B003BE013 /* README.md */,
 				66E8F65318B29577005B65B0 /* NimbusCore.h */,
 				66E8F65418B29577005B65B0 /* NimbusCore+Additions.h */,
 				66E8F64318B29577005B65B0 /* NIButtonUtilities.h */,
