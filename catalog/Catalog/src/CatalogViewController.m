@@ -406,4 +406,10 @@
   self.tableView.delegate = [_actions forwardingTo:self];
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+  [super viewDidAppear:animated];
+
+  [self.navigationController pushViewController:[[BasicInstantiationPagingScrollViewController alloc] init]animated:YES];
+}
+
 @end

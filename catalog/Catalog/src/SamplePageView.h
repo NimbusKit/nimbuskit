@@ -21,7 +21,7 @@
 // This is the page view object that will be displayed for each page of the paging scroll view.
 // Pages that will be displayed in a NIPagingScrollView must implement the NIPagingScrollViewPage
 // protocol.
-@interface SamplePageView : UICollectionViewCell <NIPagingScrollViewPage>
+@interface SamplePageView : UICollectionViewCell
 @property (nonatomic, assign) NSInteger pageIndex;
 @property (nonatomic, retain) UILabel* label;
 @end

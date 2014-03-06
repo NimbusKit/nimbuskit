@@ -22,15 +22,16 @@
 
 - (id)initWithFrame:(CGRect)frame {
   if ((self = [super initWithFrame:CGRectZero])) {
-    _label = [[UILabel alloc] initWithFrame:self.bounds];
-    _label.autoresizingMask = UIViewAutoresizingFlexibleDimensions;
-    _label.font = [UIFont systemFontOfSize:26];
-    _label.textAlignment = NSTextAlignmentCenter;
-    _label.backgroundColor = [UIColor clearColor];
-    
-    [self addSubview:_label];
+    UIView* centeredView = [[UIView alloc] initWithFrame:CGRectMake(CGRectGetMidX(self.bounds) - 50, CGRectGetMidY(self.bounds) - 20, 40, 40)];
+    centeredView.autoresizingMask = UIViewAutoresizingFlexibleMargins | UIViewAutoresizingFlexibleDimensions;
+    centeredView.backgroundColor = [UIColor blackColor];
+    [self.contentView addSubview:centeredView];
   }
   return self;
+}
+
+- (NSString *)description {
+  return [NSString stringWithFormat:@"%@ page index: %@", [super description], [@(_pageIndex) stringValue]];
 }
 
 - (void)setPageIndex:(NSInteger)pageIndex {

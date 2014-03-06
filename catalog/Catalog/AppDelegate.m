@@ -17,6 +17,7 @@
 #import "AppDelegate.h"
 
 #import "CatalogViewController.h"
+#import <NimbusKit/NimbusKit.h>
 
 @implementation AppDelegate
 
@@ -28,6 +29,10 @@
   self.window.rootViewController = nc;
   [self.window makeKeyAndVisible];
   return YES;
+}
+
+- (NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+  return NISupportedInterfaceOrientationsForWindow(window);
 }
 
 @end

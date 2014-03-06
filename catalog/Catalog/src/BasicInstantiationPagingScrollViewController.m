@@ -49,12 +49,11 @@
 static NSString* const kPageReuseIdentifier = @"SamplePageIdentifier";
 
 @interface BasicInstantiationPagingScrollViewController() <NIPagingScrollViewDataSource>
-// We must retain the paging scroll view in order to autorotate it correctly.
-@property (nonatomic, retain) NIPagingScrollView* pagingScrollView;
 @end
 
-@implementation BasicInstantiationPagingScrollViewController
-
+@implementation BasicInstantiationPagingScrollViewController {
+  NIPagingScrollView* _pagingScrollView;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
   if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
@@ -73,29 +72,21 @@ static NSString* const kPageReuseIdentifier = @"SamplePageIdentifier";
   self.view.backgroundColor = [UIColor blackColor];
 
   // Create a paging scroll view the same way we would any other type of view.
-  self.pagingScrollView = [[NIPagingScrollView alloc] initWithFrame:self.view.bounds];
-  self.pagingScrollView.autoresizingMask = UIViewAutoresizingFlexibleDimensions;
+  _pagingScrollView = [[NIPagingScrollView alloc] initWithFrame:self.view.bounds];
+  _pagingScrollView.autoresizingMask = UIViewAutoresizingFlexibleDimensions;
 
   // A paging scroll view has a data source much like a UITableView.
-  self.pagingScrollView.dataSource = self;
+  _pagingScrollView.dataSource = self;
 
-  [self.view addSubview:self.pagingScrollView];
+  [self.view addSubview:_pagingScrollView];
 
   // Tells the paging scroll view to ask the dataSource for information about how to present itself.
-  [self.pagingScrollView registerPageClass:[SamplePageView class]];
-  [self.pagingScrollView reloadData];
+  [_pagingScrollView registerClass:[SamplePageView class] forPageWithReuseIdentifier:NSStringFromClass([SamplePageView class])];
+  [_pagingScrollView reloadData];
 }
 
-- (void)viewDidAppear:(BOOL)animated {
-  [super viewDidAppear:animated];
-
-  [self.pagingScrollView moveToPageAtIndex:10 animated:YES];
-}
-
-- (void)didReceiveMemoryWarning {
-  self.pagingScrollView = nil;
-
-  [super didReceiveMemoryWarning];
+- (BOOL)shouldAutorotate {
+  return [_pagingScrollView shouldAutorotate];
 }
 
 - (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
@@ -105,7 +96,7 @@ static NSString* const kPageReuseIdentifier = @"SamplePageIdentifier";
   // The paging scroll view implements autorotation internally so that the current visible page
   // index is maintained correctly. It also provides an opportunity for each visible page view to
   // maintain zoom information correctly.
-  [self.pagingScrollView willRotateToInterfaceOrientation:toInterfaceOrientation duration:duration];
+  [_pagingScrollView willRotateToInterfaceOrientation:toInterfaceOrientation duration:duration];
 }
 
 - (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
@@ -114,8 +105,13 @@ static NSString* const kPageReuseIdentifier = @"SamplePageIdentifier";
 
   // The second part of the paging scroll view's autorotation functionality. Both of these methods
   // must be called in order for the paging scroll view to rotate itself correctly.
-  [self.pagingScrollView willAnimateRotationToInterfaceOrientation:toInterfaceOrientation
-                                                      duration:duration];
+  [_pagingScrollView willAnimateRotationToInterfaceOrientation:toInterfaceOrientation duration:duration];
+}
+
+- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
+  [super didRotateFromInterfaceOrientation:fromInterfaceOrientation];
+
+  [_pagingScrollView didRotateFromInterfaceOrientation:fromInterfaceOrientation];
 }
 
 // The paging scroll view data source works similarly to UITableViewDataSource. We will return
@@ -132,10 +128,10 @@ static NSString* const kPageReuseIdentifier = @"SamplePageIdentifier";
 // Unlike UITableViewDataSource, this method requests a UIView that conforms to a protocol, rather
 // than requiring a specific subclass of a type of view. This allows you to use any UIView as long
 // as it conforms to NIPagingScrollView.
-- (UICollectionViewCell<NIPagingScrollViewPage> *)pagingScrollView:(NIPagingScrollView *)pagingScrollView
+- (UICollectionViewCell *)pagingScrollView:(NIPagingScrollView *)pagingScrollView
                                     pageViewForIndex:(NSInteger)pageIndex {
   // Check the reusable page queue.
-  SamplePageView *page = (SamplePageView *)[pagingScrollView dequeueReusablePageWithIdentifier:NSStringFromClass([SamplePageView class]) forPageIndex:pageIndex];
+  SamplePageView* page = (SamplePageView *)[pagingScrollView dequeueReusablePageWithIdentifier:NSStringFromClass([SamplePageView class]) forPageIndex:pageIndex];
   page.pageIndex = pageIndex;
   
   return page;

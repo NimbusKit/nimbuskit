@@ -70,7 +70,7 @@ static NSString* const kPageReuseIdentifier = @"SamplePageIdentifier";
   self.pagingScrollView.autoresizingMask = UIViewAutoresizingFlexibleDimensions;
   self.pagingScrollView.dataSource = self;
   [self.view addSubview:self.pagingScrollView];
-  [self.pagingScrollView registerPageClass:[SamplePageView class]];
+  [self.pagingScrollView registerClass:[SamplePageView class] forPageWithReuseIdentifier:NSStringFromClass([SamplePageView class])];
   [self.pagingScrollView reloadData];
 }
 
@@ -95,14 +95,19 @@ static NSString* const kPageReuseIdentifier = @"SamplePageIdentifier";
                                                           duration:duration];
 }
 
+- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
+  [super didRotateFromInterfaceOrientation:fromInterfaceOrientation];
+
+  [self.pagingScrollView didRotateFromInterfaceOrientation:fromInterfaceOrientation];
+}
+
 #pragma mark - NIPagingScrollViewDataSource
 
 - (NSInteger)numberOfPagesInPagingScrollView:(NIPagingScrollView *)pagingScrollView {
   return 10;
 }
 
-- (UICollectionViewCell<NIPagingScrollViewPage> *)pagingScrollView:(NIPagingScrollView *)pagingScrollView
-                                    pageViewForIndex:(NSInteger)pageIndex {
+- (UICollectionViewCell *)pagingScrollView:(NIPagingScrollView *)pagingScrollView pageViewForIndex:(NSInteger)pageIndex {
   SamplePageView *page = (SamplePageView *)[pagingScrollView dequeueReusablePageWithIdentifier:NSStringFromClass([SamplePageView class]) forPageIndex:pageIndex];
   page.pageIndex = pageIndex;
   return page;
