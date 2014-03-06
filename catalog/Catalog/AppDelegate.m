@@ -22,12 +22,14 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+  [NIOverview applicationDidFinishLaunching];
   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
   self.window.backgroundColor = [UIColor whiteColor];
   UIViewController* rvc = [[CatalogViewController alloc] init];
   UINavigationController* nc = [[UINavigationController alloc] initWithRootViewController:rvc];
   self.window.rootViewController = nc;
   [self.window makeKeyAndVisible];
+  [NIOverview addOverviewToWindow:self.window];
   return YES;
 }
 
