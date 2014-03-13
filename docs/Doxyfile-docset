@@ -2360,3 +2360,5 @@ NIMBUSKIT_LINKS_ARE_CODE = YES
 NIMBUSKIT_TREAT_MARKDOWN_FILES_AS_DOCS = YES
 NIMBUSKIT_TREAT_MARKDOWN_INDENTS_AS_CODE = YES
 ALIASES += protected="\n<b><i>For subclass use only.</i></b>\n"
+ALIASES += default_property="\nThe default value of this property is"
+ALIASES += param_animated="\n@param animated `YES` if you want to animate the change, `NO` if it should be immediate."
